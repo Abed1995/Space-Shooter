@@ -4,11 +4,17 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    float horizontalInput;
-    float verticalInput;
+    float _horizontalInput;
+    float _verticalInput;
 
     [SerializeField]
-     float speed;
+     float _speed;
+
+    [SerializeField]
+    GameObject _laserPrefab;
+
+    float _fireRate = .25f;
+    float _canFire = 0.0f;
 
     // Start is called before the first frame update
     void Start()
@@ -21,15 +27,20 @@ public class Player : MonoBehaviour
     {
         Move();
         controlPlayerBounds();
+
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButton(0))
+        {
+            ShootingLaser();
+        }
     }
 
     void Move()
     {
-        horizontalInput = Input.GetAxis("Horizontal");
-        verticalInput = Input.GetAxis("Vertical");
+        _horizontalInput = Input.GetAxis("Horizontal");
+        _verticalInput = Input.GetAxis("Vertical");
 
-        transform.Translate(Vector3.right * speed * horizontalInput * Time.deltaTime);
-        transform.Translate(Vector3.up * speed * verticalInput * Time.deltaTime);
+        transform.Translate(Vector3.right * _speed * _horizontalInput * Time.deltaTime);
+        transform.Translate(Vector3.up * _speed * _verticalInput * Time.deltaTime);
     }
 
     void controlPlayerBounds()
@@ -48,5 +59,19 @@ public class Player : MonoBehaviour
         if (transform.position.y < -4f)
             transform.position = new Vector3(transform.position.x, -4f, 0);
 
+    }
+
+    void ShootingLaser()
+    {
+        
+            if (Time.time > _canFire)
+            {
+                Instantiate(_laserPrefab, transform.position + new Vector3(0, 1, 0), Quaternion.identity);
+
+                _canFire = Time.time + _fireRate;
+            }
+            
+        
+        
     }
 }
