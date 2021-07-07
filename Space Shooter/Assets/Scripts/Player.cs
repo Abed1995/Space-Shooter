@@ -13,6 +13,12 @@ public class Player : MonoBehaviour
     [SerializeField]
     GameObject _laserPrefab;
 
+    [SerializeField]
+    GameObject _tripleLaserPrefab;
+
+    [SerializeField]
+    bool canTripleShoot;
+
     float _fireRate = .25f;
     float _canFire = 0.0f;
 
@@ -66,12 +72,34 @@ public class Player : MonoBehaviour
         
             if (Time.time > _canFire)
             {
-                Instantiate(_laserPrefab, transform.position + new Vector3(0, 1, 0), Quaternion.identity);
+               if (canTripleShoot)
+               {
+                   Instantiate(_tripleLaserPrefab, transform.position + new Vector3(.34f, 1.4f , 0), Quaternion.identity);
+               }
+               else
+                   Instantiate(_laserPrefab, transform.position + new Vector3(0, 1, 0), Quaternion.identity);
 
                 _canFire = Time.time + _fireRate;
             }
-            
-        
-        
     }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Triple Shoot")
+        {
+            StartCoroutine(cannotTrippleShoot());
+            Destroy(other.gameObject);
+        }
+
+    }
+
+    
+
+    IEnumerator cannotTrippleShoot()
+    {
+        canTripleShoot = true;
+        yield return new WaitForSeconds(5);
+        canTripleShoot = false;
+
+    }
+    
 }
