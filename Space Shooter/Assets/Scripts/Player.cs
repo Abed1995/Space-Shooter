@@ -17,10 +17,15 @@ public class Player : MonoBehaviour
     GameObject _tripleLaserPrefab;
 
     [SerializeField]
+    GameObject _PlayerExplosion;
+
+    [SerializeField]
     bool canTripleShoot;
 
     float _fireRate = .25f;
     float _canFire = 0.0f;
+
+    public static int lives = 3;
 
     // Start is called before the first frame update
     void Start()
@@ -34,10 +39,12 @@ public class Player : MonoBehaviour
         Move();
         controlPlayerBounds();
 
+        Die();
         if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButton(0))
         {
             ShootingLaser();
         }
+        
     }
 
     void Move()
@@ -81,6 +88,15 @@ public class Player : MonoBehaviour
 
                 _canFire = Time.time + _fireRate;
             }
+    }
+
+    void Die()
+    {
+        if (lives < 1)
+        {
+            Instantiate(_PlayerExplosion, transform.position, Quaternion.identity);
+            Destroy(this.gameObject);
+        }
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
