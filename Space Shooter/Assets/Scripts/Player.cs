@@ -89,6 +89,12 @@ public class Player : MonoBehaviour
             StartCoroutine(cannotTrippleShoot());
             Destroy(other.gameObject);
         }
+        if (other.gameObject.tag == "Speed Boost")
+        {
+            StartCoroutine(changingspeed());
+            Destroy(other.gameObject);
+        }
+
 
     }
 
@@ -100,6 +106,13 @@ public class Player : MonoBehaviour
         yield return new WaitForSeconds(5);
         canTripleShoot = false;
 
+    }
+
+    IEnumerator changingspeed()
+    {
+        _speed = 10;
+        yield return new WaitForSeconds(5);
+        _speed = 5;
     }
     
 }

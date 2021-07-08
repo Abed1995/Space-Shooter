@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TripleShoot : MonoBehaviour
+public class Ship : MonoBehaviour
 {
     float _speed = 1;
    
