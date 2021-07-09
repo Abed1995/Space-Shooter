@@ -8,6 +8,7 @@ public class Enemy : MonoBehaviour
     float _speed;
     [SerializeField]
     GameObject EnemyExplosion;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -41,8 +42,11 @@ public class Enemy : MonoBehaviour
         {
             Destroy(this.gameObject);
             Instantiate(EnemyExplosion, transform.position, Quaternion.identity);
-            
-            Player.lives--;
+
+            Player player = other.GetComponent<Player>();
+
+
+            player.Damage();
         }
 
     }

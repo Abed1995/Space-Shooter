@@ -11,6 +11,9 @@ public class Player : MonoBehaviour
      float _speed;
 
     [SerializeField]
+    GameObject _shieldPrefab;
+
+    [SerializeField]
     GameObject _laserPrefab;
 
     [SerializeField]
@@ -25,7 +28,10 @@ public class Player : MonoBehaviour
     float _fireRate = .25f;
     float _canFire = 0.0f;
 
-    public static int lives = 3;
+    [SerializeField]
+    static  bool _shieldIsActive = false;
+
+    static int lives = 3;
 
     // Start is called before the first frame update
     void Start()
@@ -39,7 +45,7 @@ public class Player : MonoBehaviour
         Move();
         controlPlayerBounds();
 
-        Die();
+        
         if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButton(0))
         {
             ShootingLaser();
@@ -90,13 +96,27 @@ public class Player : MonoBehaviour
             }
     }
 
-    void Die()
+    public void Damage()
     {
-        if (lives < 1)
+
+        if (_shieldIsActive == true)
         {
-            Instantiate(_PlayerExplosion, transform.position, Quaternion.identity);
-            Destroy(this.gameObject);
+            _shieldIsActive = false;
+            _shieldPrefab.SetActive(false);
+            return;
         }
+        
+            lives--;
+            if (lives < 1)
+            {
+                //Instantiate(_PlayerExplosion, transform.position, Quaternion.identity);
+                Debug.Log("haha");
+                Destroy(gameObject);
+            }
+            Debug.Log(lives);
+        
+
+        
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -105,9 +125,15 @@ public class Player : MonoBehaviour
             StartCoroutine(cannotTrippleShoot());
             Destroy(other.gameObject);
         }
-        if (other.gameObject.tag == "Speed Boost")
+        else  if (other.gameObject.tag == "Speed Boost")
         {
             StartCoroutine(changingspeed());
+            Destroy(other.gameObject);
+        }
+        else if (other.gameObject.tag == "Shield")
+        {
+            _shieldIsActive = true;
+            _shieldPrefab.SetActive(true);
             Destroy(other.gameObject);
         }
 
