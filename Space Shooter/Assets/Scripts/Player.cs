@@ -109,9 +109,9 @@ public class Player : MonoBehaviour
             lives--;
             if (lives < 1)
             {
-                //Instantiate(_PlayerExplosion, transform.position, Quaternion.identity);
-                Debug.Log("haha");
-                Destroy(gameObject);
+             Instantiate(_PlayerExplosion, transform.position, Quaternion.identity);
+
+             Destroy(gameObject);
             }
             Debug.Log(lives);
         
