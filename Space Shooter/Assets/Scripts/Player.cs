@@ -33,10 +33,21 @@ public class Player : MonoBehaviour
 
     static int lives = 3;
 
+    UIManager uIManager;
+
+    GameManager gameManager;
+    SpawnManager spawnManager;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        uIManager = GameObject.Find("Canvas").GetComponent<UIManager>();
+        uIManager.UpdateLives(lives);
+
+        gameManager = GameObject.Find("Game Manager").GetComponent<GameManager>();
+        spawnManager = GameObject.Find("Spawn Manager").GetComponent<SpawnManager>();
+        spawnManager.StartCouroutines();
+
     }
 
     // Update is called once per frame
@@ -107,11 +118,16 @@ public class Player : MonoBehaviour
         }
         
             lives--;
-            if (lives < 1)
+        uIManager.UpdateLives(lives);
+        if (lives < 1)
             {
              Instantiate(_PlayerExplosion, transform.position, Quaternion.identity);
 
              Destroy(gameObject);
+
+            gameManager.gameOver = true;
+
+            uIManager.ShowTitleScreen();
             }
             Debug.Log(lives);
         

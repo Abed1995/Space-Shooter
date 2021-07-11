@@ -8,11 +8,13 @@ public class Enemy : MonoBehaviour
     float _speed;
     [SerializeField]
     GameObject EnemyExplosion;
-    
+
+
+    UIManager uIManager;
     // Start is called before the first frame update
     void Start()
     {
-        
+        uIManager = GameObject.Find("Canvas").GetComponent<UIManager>();
     }
 
     // Update is called once per frame
@@ -36,6 +38,7 @@ public class Enemy : MonoBehaviour
             Destroy(other.gameObject);
             Destroy(this.gameObject);
             Instantiate(EnemyExplosion, transform.position, Quaternion.identity);
+            uIManager.UpdateScore();
         }
 
        else if (other.gameObject.tag == "Player")
@@ -44,7 +47,7 @@ public class Enemy : MonoBehaviour
             Instantiate(EnemyExplosion, transform.position, Quaternion.identity);
 
             Player player = other.GetComponent<Player>();
-
+            uIManager.UpdateScore();
 
             player.Damage();
         }
