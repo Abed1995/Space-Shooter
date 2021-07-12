@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Ship : MonoBehaviour
 {
-    float _speed = 1;
+    float _speed = 3;
    
 
     // Update is called once per frame

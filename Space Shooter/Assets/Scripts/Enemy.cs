@@ -9,6 +9,8 @@ public class Enemy : MonoBehaviour
     [SerializeField]
     GameObject EnemyExplosion;
 
+    [SerializeField]
+    AudioClip _explosionClip ;
 
     UIManager uIManager;
     // Start is called before the first frame update
@@ -38,6 +40,8 @@ public class Enemy : MonoBehaviour
             Destroy(other.gameObject);
             Destroy(this.gameObject);
             Instantiate(EnemyExplosion, transform.position, Quaternion.identity);
+
+            AudioSource.PlayClipAtPoint(_explosionClip, Camera.main.transform.position);
             uIManager.UpdateScore();
         }
 
@@ -46,6 +50,7 @@ public class Enemy : MonoBehaviour
             Destroy(this.gameObject);
             Instantiate(EnemyExplosion, transform.position, Quaternion.identity);
 
+            AudioSource.PlayClipAtPoint(_explosionClip, Camera.main.transform.position);
             Player player = other.GetComponent<Player>();
             uIManager.UpdateScore();
 

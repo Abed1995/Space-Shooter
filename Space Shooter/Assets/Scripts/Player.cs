@@ -23,6 +23,9 @@ public class Player : MonoBehaviour
     GameObject _PlayerExplosion;
 
     [SerializeField]
+    GameObject[] _engines;
+
+    [SerializeField]
     bool canTripleShoot;
 
     float _fireRate = .25f;
@@ -38,6 +41,13 @@ public class Player : MonoBehaviour
     GameManager gameManager;
     SpawnManager spawnManager;
 
+    AudioSource _laserAudio;
+
+    [SerializeField]
+    AudioClip _powerUpClip;
+
+    int hitCounts;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -48,6 +58,10 @@ public class Player : MonoBehaviour
         spawnManager = GameObject.Find("Spawn Manager").GetComponent<SpawnManager>();
         spawnManager.StartCouroutines();
 
+
+        _laserAudio = GetComponent<AudioSource>();
+
+        hitCounts = 0;
     }
 
     // Update is called once per frame
@@ -96,6 +110,7 @@ public class Player : MonoBehaviour
         
             if (Time.time > _canFire)
             {
+            _laserAudio.Play();
                if (canTripleShoot)
                {
                    Instantiate(_tripleLaserPrefab, transform.position + new Vector3(.34f, 1.4f , 0), Quaternion.identity);
@@ -118,6 +133,18 @@ public class Player : MonoBehaviour
         }
         
             lives--;
+            hitCounts++;
+
+        if (hitCounts == 1)
+        {
+            _engines[0].SetActive(true);
+        }
+
+        else if (hitCounts == 2)
+        {
+            _engines[1].SetActive(true);
+        }
+
         uIManager.UpdateLives(lives);
         if (lives < 1)
             {
@@ -140,17 +167,20 @@ public class Player : MonoBehaviour
         {
             StartCoroutine(cannotTrippleShoot());
             Destroy(other.gameObject);
+            AudioSource.PlayClipAtPoint(_powerUpClip, Camera.main.transform.position);
         }
         else  if (other.gameObject.tag == "Speed Boost")
         {
             StartCoroutine(changingspeed());
             Destroy(other.gameObject);
+            AudioSource.PlayClipAtPoint(_powerUpClip, Camera.main.transform.position);
         }
         else if (other.gameObject.tag == "Shield")
         {
             _shieldIsActive = true;
             _shieldPrefab.SetActive(true);
             Destroy(other.gameObject);
+            AudioSource.PlayClipAtPoint(_powerUpClip, Camera.main.transform.position);
         }
 
 
@@ -168,9 +198,9 @@ public class Player : MonoBehaviour
 
     IEnumerator changingspeed()
     {
-        _speed = 10;
+        _speed = 12;
         yield return new WaitForSeconds(5);
-        _speed = 5;
+        _speed = 8;
     }
     
 }
