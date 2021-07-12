@@ -11,11 +11,11 @@ public class SpawnManager : MonoBehaviour
     GameObject[] powerups;
 
     int randomprefab;
-
+    GameManager gameManager;
     // Start is called before the first frame update
     void Start()
     {
-        
+        gameManager = GameObject.Find("Game Manager").GetComponent<GameManager>();
     }
 
     // Update is called once per frame
@@ -32,7 +32,7 @@ public class SpawnManager : MonoBehaviour
 
     IEnumerator InstantiateEnemy()
     {
-        while (true)
+        while (gameManager.gameOver == false)
         {
             Instantiate(_enemyPrefab, new Vector3(Random.Range(-7, 7), 7, 0), Quaternion.identity);
             yield return new WaitForSeconds(3.0f);
@@ -41,10 +41,10 @@ public class SpawnManager : MonoBehaviour
 
     IEnumerator InstantiatePowerUP()
     {
-        while (true)
+        while (gameManager.gameOver == false)
         {
             randomprefab = Random.Range(0, 3);
-            Instantiate(powerups[randomprefab], new Vector3(Random.Range(-7, 7), 7, 0), Quaternion.identity);
+            Instantiate(powerups[2], new Vector3(Random.Range(-7, 7), 7, 0), Quaternion.identity);
             yield return new WaitForSeconds(15.0f);
         }
        

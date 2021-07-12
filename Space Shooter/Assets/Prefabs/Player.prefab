@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3081514451256798674}
   - component: {fileID: 3081514451256798675}
   - component: {fileID: 3081514451256798673}
+  - component: {fileID: 2403661470499489532}
   - component: {fileID: 3081514451256798679}
   - component: {fileID: 3081514451256798672}
   - component: {fileID: 4610057293213030232}
@@ -112,6 +113,18 @@ MonoBehaviour:
   - {fileID: 8682747868962054737}
   canTripleShoot: 0
   _powerUpClip: {fileID: 8300000, guid: 5ee343246919d2b4bba63ae629e95494, type: 3}
+--- !u!114 &2403661470499489532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3081514451256798684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 629e2993299cebe4c994b330d3cfe252, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!61 &3081514451256798679
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -514,6 +527,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7999144714076158405, guid: 264f56747bf59d045bc09448a51970ba, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 264f56747bf59d045bc09448a51970ba, type: 3}
 --- !u!1 &3081514452870434865 stripped
@@ -592,6 +609,10 @@ PrefabInstance:
     - target: {fileID: 4424227494019175083, guid: ee8a40bdaf451194abf9e7f115ad10b4, type: 3}
       propertyPath: m_Name
       value: Thruster
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411444421954876116, guid: ee8a40bdaf451194abf9e7f115ad10b4, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ee8a40bdaf451194abf9e7f115ad10b4, type: 3}

@@ -17,7 +17,9 @@ public class UIManager : MonoBehaviour
     [SerializeField]
     GameObject titlecreen;
 
-    int score;
+    
+
+   public int score;
 
     // Start is called before the first frame update
    public void UpdateLives( int currentlives)
@@ -34,10 +36,14 @@ public class UIManager : MonoBehaviour
 
     public void ShowTitleScreen()
     {
+        
         titlecreen.SetActive(true);
+        
     }
     public void HideTitleScreen()
     {
         titlecreen.SetActive(false);
+        score = 0;
+        scoreText.text = "Score : " + score;
     }
 }

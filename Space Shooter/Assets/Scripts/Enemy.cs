@@ -38,11 +38,18 @@ public class Enemy : MonoBehaviour
         if (other.gameObject.tag == "Laser")
         {
             Destroy(other.gameObject);
+
+           
             Destroy(this.gameObject);
             Instantiate(EnemyExplosion, transform.position, Quaternion.identity);
 
             AudioSource.PlayClipAtPoint(_explosionClip, Camera.main.transform.position);
             uIManager.UpdateScore();
+
+            if (other.transform.parent.gameObject != null)
+            {
+                Destroy(other.transform.parent.gameObject);
+            }
         }
 
        else if (other.gameObject.tag == "Player")
