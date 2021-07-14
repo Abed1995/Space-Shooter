@@ -15,11 +15,11 @@ D:/3D + game development/game development/Unity Projects/Space Shooter/Space-Sho
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56709
+57464
 Successfully changed project path to: D:/3D + game development/game development/Unity Projects/Space Shooter/Space-Shooter/Space Shooter
 D:/3D + game development/game development/Unity Projects/Space Shooter/Space-Shooter/Space Shooter
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 109.96 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 118.98 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -35,287 +35,2416 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56084
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56732
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003008 seconds.
+Registered in 0.003580 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 91.18 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 110.84 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.581 seconds
+- Completed reload, in  4.228 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005339 seconds.
+Registered in 0.006448 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 86.64 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 126.78 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.033 seconds
+- Completed reload, in  2.366 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2210 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 102.6 MB.
-System memory in use after: 102.4 MB.
+Unloading 2211 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.9 MB.
+System memory in use after: 102.7 MB.
 
-Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 2639.
-Total: 3.853191 ms (FindLiveObjects: 0.261490 ms CreateObjectMapping: 0.198126 ms MarkObjects: 3.105756 ms  DeleteObjects: 0.285141 ms)
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 2641.
+Total: 4.288264 ms (FindLiveObjects: 0.278447 ms CreateObjectMapping: 0.124944 ms MarkObjects: 3.564034 ms  DeleteObjects: 0.317715 ms)
 
 ========================================================================
 Received Import Request.
+  path: Assets/Scenes/Main.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63a891c8a26b180af36e58ab2cd59446') in 0.035522 seconds
+  Import took 0.041170 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.0 MB.
+System memory in use after: 56.9 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2641.
+Total: 4.305667 ms (FindLiveObjects: 0.251673 ms CreateObjectMapping: 0.098170 ms MarkObjects: 3.588130 ms  DeleteObjects: 0.365908 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 297.118176 seconds.
   path: Assets/Scenes/start.unity
   artifactKey: Guid(5be4edf4c4404614ea46278e32e92ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/start.unity using Guid(5be4edf4c4404614ea46278e32e92ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e819c58f362ebc57c013c49ccca5e016') in 0.026804 seconds
-  Import took 0.031743 seconds .
+Start importing Assets/Scenes/start.unity using Guid(5be4edf4c4404614ea46278e32e92ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd78d105320e2a7bcc6e62fc650b0c327') in 0.059923 seconds
+  Import took 0.068805 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004924 seconds.
+Registered in 0.039857 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.940 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2183 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 100.4 MB.
-System memory in use after: 100.3 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2643.
-Total: 8.791611 ms (FindLiveObjects: 0.922356 ms CreateObjectMapping: 0.421687 ms MarkObjects: 7.034360 ms  DeleteObjects: 0.404284 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011564 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.149 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.11 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2184 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 100.5 MB.
-System memory in use after: 100.3 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2648.
-Total: 6.132976 ms (FindLiveObjects: 0.292280 ms CreateObjectMapping: 0.124498 ms MarkObjects: 5.280678 ms  DeleteObjects: 0.432842 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 113.352881 seconds.
-  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/Square.png
-  artifactKey: Guid(48e93eef0688c4a259cb0eddcd8661f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/Square.png using Guid(48e93eef0688c4a259cb0eddcd8661f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67f9d2c87602c9de665cd5edc8b46197') in 0.259896 seconds
-  Import took 0.268668 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000407 seconds.
-  path: Assets/Scripts/Start.cs
-  artifactKey: Guid(cd0de28537d8528479d619577123f98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Start.cs using Guid(cd0de28537d8528479d619577123f98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed0d674bad8b8c7716e5f3845fe71143') in 0.021239 seconds
-  Import took 0.029741 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008434 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.246 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2183 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 103.4 MB.
-System memory in use after: 103.3 MB.
-
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2657.
-Total: 4.422579 ms (FindLiveObjects: 0.288264 ms CreateObjectMapping: 0.121821 ms MarkObjects: 3.692548 ms  DeleteObjects: 0.316823 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 85.063762 seconds.
-  path: Assets/Scripts/StartScene.cs
-  artifactKey: Guid(6fa5caee013de1c4991cbb7779ea74bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/StartScene.cs using Guid(6fa5caee013de1c4991cbb7779ea74bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e5c727a0b1762e7c78e5b4c12174745') in 0.032483 seconds
-  Import took 0.041577 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.013961 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.656 seconds
-Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.594 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2184 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 103.4 MB.
-System memory in use after: 103.3 MB.
+System memory in use before: 100.8 MB.
+System memory in use after: 100.6 MB.
 
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2662.
-Total: 4.385542 ms (FindLiveObjects: 0.282463 ms CreateObjectMapping: 0.125837 ms MarkObjects: 3.698349 ms  DeleteObjects: 0.275770 ms)
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2645.
+Total: 8.559572 ms (FindLiveObjects: 0.465863 ms CreateObjectMapping: 0.325747 ms MarkObjects: 7.326640 ms  DeleteObjects: 0.436859 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005287 seconds.
+Registered in 0.005600 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.848 seconds
+- Completed reload, in  2.024 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2184 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 103.5 MB.
-System memory in use after: 103.3 MB.
+System memory in use before: 100.8 MB.
+System memory in use after: 100.6 MB.
 
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2666.
-Total: 7.219991 ms (FindLiveObjects: 0.869701 ms CreateObjectMapping: 0.350736 ms MarkObjects: 5.599732 ms  DeleteObjects: 0.396698 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1061.897839 seconds.
-  path: Assets/Scripts/StartScene.cs
-  artifactKey: Guid(6fa5caee013de1c4991cbb7779ea74bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/StartScene.cs using Guid(6fa5caee013de1c4991cbb7779ea74bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bc8f9a5b0faed5f9151f0f662922971') in 0.012381 seconds
-  Import took 0.018689 seconds .
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2649.
+Total: 4.404730 ms (FindLiveObjects: 0.286033 ms CreateObjectMapping: 0.121374 ms MarkObjects: 3.721999 ms  DeleteObjects: 0.272646 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004806 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.953 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2184 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 103.5 MB.
-System memory in use after: 103.3 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2670.
-Total: 8.281571 ms (FindLiveObjects: 0.832664 ms CreateObjectMapping: 0.577867 ms MarkObjects: 6.442213 ms  DeleteObjects: 0.425703 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007053 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.03 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.315 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2184 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 103.5 MB.
-System memory in use after: 103.3 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2674.
-Total: 4.679607 ms (FindLiveObjects: 0.443998 ms CreateObjectMapping: 0.175368 ms MarkObjects: 3.765730 ms  DeleteObjects: 0.292280 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008951 seconds.
+Registered in 0.013271 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.133 seconds
+- Completed reload, in  1.952 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2184 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 103.5 MB.
-System memory in use after: 103.3 MB.
+System memory in use before: 100.8 MB.
+System memory in use after: 100.7 MB.
 
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2678.
-Total: 4.123159 ms (FindLiveObjects: 0.273092 ms CreateObjectMapping: 0.125390 ms MarkObjects: 3.438197 ms  DeleteObjects: 0.283802 ms)
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2653.
+Total: 3.893797 ms (FindLiveObjects: 0.294065 ms CreateObjectMapping: 0.106649 ms MarkObjects: 3.243195 ms  DeleteObjects: 0.247657 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 580.559490 seconds.
+  path: Assets/Scripts/Ship.cs
+  artifactKey: Guid(e0312fee5a729514eb54693b9a69e735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Ship.cs using Guid(e0312fee5a729514eb54693b9a69e735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a91d983541268f50752d0443ba622b1') in 0.047776 seconds
+  Import took 0.054570 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007203 seconds.
+Registered in 0.007675 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.355 seconds
+- Completed reload, in  1.933 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2184 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.8 MB.
+System memory in use after: 100.7 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2657.
+Total: 4.259259 ms (FindLiveObjects: 0.242303 ms CreateObjectMapping: 0.099509 ms MarkObjects: 3.654618 ms  DeleteObjects: 0.259705 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 2.248775 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 11.103 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2184 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.7 MB.
+System memory in use after: 100.6 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2661.
+Total: 4.603302 ms (FindLiveObjects: 0.327086 ms CreateObjectMapping: 0.121374 ms MarkObjects: 3.881303 ms  DeleteObjects: 0.270415 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010351 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.406 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2184 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.8 MB.
+System memory in use after: 100.6 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2665.
+Total: 4.746988 ms (FindLiveObjects: 0.372602 ms CreateObjectMapping: 0.171352 ms MarkObjects: 3.941544 ms  DeleteObjects: 0.258813 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 985.693269 seconds.
+  path: Assets/Intro/intro.mp4
+  artifactKey: Guid(bb9c1b0edbbc08349be99e58208c70ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Intro/intro.mp4 using Guid(bb9c1b0edbbc08349be99e58208c70ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cd37375a063068b61662a43931f003b') in 0.069012 seconds
+  Import took 0.114935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.827169 seconds.
+  path: Assets/Intro/intro 2.mp4
+  artifactKey: Guid(96ad11ef693ab5f42a21bc7423b1833d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Intro/intro 2.mp4 using Guid(96ad11ef693ab5f42a21bc7423b1833d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a691a68cbe4411bee6f6c042d1c03647') in 0.037394 seconds
+  Import took 0.066701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.286259 seconds.
+  path: Assets/Intro/intro.mp4
+  artifactKey: Guid(96ad11ef693ab5f42a21bc7423b1833d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Intro/intro.mp4 using Guid(96ad11ef693ab5f42a21bc7423b1833d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81b79e7cd6ca90b13191de198c5c95c3') in 0.009377 seconds
+  Import took 0.040013 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005224 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.094 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2184 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.8 MB.
+System memory in use after: 100.6 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2669.
+Total: 11.292280 ms (FindLiveObjects: 0.818831 ms CreateObjectMapping: 1.113788 ms MarkObjects: 8.460955 ms  DeleteObjects: 0.893797 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005278 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.404 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2184 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.8 MB.
+System memory in use after: 100.6 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2673.
+Total: 3.771084 ms (FindLiveObjects: 0.261044 ms CreateObjectMapping: 0.108434 ms MarkObjects: 3.147702 ms  DeleteObjects: 0.251227 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 132.106505 seconds.
+  path: Assets/Game Assets/Sprites/Asteroid.png
+  artifactKey: Guid(6691643d9d08ede40bc93504dc8acb2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Asteroid.png using Guid(6691643d9d08ede40bc93504dc8acb2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b88b9a2104ef53a33f3fd1bf0e73b1ae') in 0.355232 seconds
+  Import took 0.393780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000485 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00002.png
+  artifactKey: Guid(537930933d92c4333ae40c1d6d362b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00002.png using Guid(537930933d92c4333ae40c1d6d362b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3895a2603f2dfd4740834c1a25329d4a') in 0.125968 seconds
+  Import took 0.166483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Game Assets/Sprites/Asteroid.png
+  artifactKey: Guid(6691643d9d08ede40bc93504dc8acb2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Asteroid.png using Guid(6691643d9d08ede40bc93504dc8acb2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b88b9a2104ef53a33f3fd1bf0e73b1ae') in 0.031739 seconds
+  Import took 0.049613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000460 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00002.png
+  artifactKey: Guid(537930933d92c4333ae40c1d6d362b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00002.png using Guid(537930933d92c4333ae40c1d6d362b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3895a2603f2dfd4740834c1a25329d4a') in 0.029081 seconds
+  Import took 0.037031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00004.png
+  artifactKey: Guid(f574bd8eb232a4689af64e1d5dc05a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00004.png using Guid(f574bd8eb232a4689af64e1d5dc05a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8dc586a6ccab5140e33a012159b1433') in 0.102774 seconds
+  Import took 0.127805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008442 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00004.png
+  artifactKey: Guid(f574bd8eb232a4689af64e1d5dc05a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00004.png using Guid(f574bd8eb232a4689af64e1d5dc05a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8dc586a6ccab5140e33a012159b1433') in 0.031761 seconds
+  Import took 0.039174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.476598 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00023.png
+  artifactKey: Guid(eedb9448dfabd40908981ed6d9022d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00023.png using Guid(eedb9448dfabd40908981ed6d9022d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97850d09601eda89c437603090b476c9') in 0.205635 seconds
+  Import took 0.271631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000837 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00046.png
+  artifactKey: Guid(9f2a35d3736344c738af9f9b349edd42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00046.png using Guid(9f2a35d3736344c738af9f9b349edd42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f47cc278525b5620fae304b30371ed9') in 0.144213 seconds
+  Import took 0.187147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00036.png
+  artifactKey: Guid(a9fb56b3dbef249f6a13b78ca405fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00036.png using Guid(a9fb56b3dbef249f6a13b78ca405fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5718712e08acc90737013b05bb062303') in 0.144660 seconds
+  Import took 0.171537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00023.png
+  artifactKey: Guid(eedb9448dfabd40908981ed6d9022d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00023.png using Guid(eedb9448dfabd40908981ed6d9022d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97850d09601eda89c437603090b476c9') in 0.039158 seconds
+  Import took 0.045843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00044.png
+  artifactKey: Guid(7539bb980ae3249f5882f08507b2cf5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00044.png using Guid(7539bb980ae3249f5882f08507b2cf5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e9fc6f42d76d18da85a6b05b506697e') in 0.203816 seconds
+  Import took 0.235881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00050.png
+  artifactKey: Guid(6a8b3f96327a649b782eca76de0e14d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00050.png using Guid(6a8b3f96327a649b782eca76de0e14d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3facf773d70ca080fb21bd25f8fab670') in 0.196396 seconds
+  Import took 0.231744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00061.png
+  artifactKey: Guid(85276638c32394575b591124b9d54777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00061.png using Guid(85276638c32394575b591124b9d54777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f185535a4197045221dad7e996e4e4d3') in 0.257607 seconds
+  Import took 0.274738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00059.png
+  artifactKey: Guid(1557c12536b4041949a96067510ca924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00059.png using Guid(1557c12536b4041949a96067510ca924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c9e1986ac244d253424ad86cedbf326') in 0.181950 seconds
+  Import took 0.189531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00038.png
+  artifactKey: Guid(02c5a4b748bf448068ce88ee258f80f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00038.png using Guid(02c5a4b748bf448068ce88ee258f80f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a269b384f48edc449b28c173a80fa065') in 0.131606 seconds
+  Import took 0.161760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00048.png
+  artifactKey: Guid(8d0a90868f6ec47d59cd644182ebff57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00048.png using Guid(8d0a90868f6ec47d59cd644182ebff57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c74783e660ce7216fa8473203757390') in 0.086222 seconds
+  Import took 0.091771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00027.png
+  artifactKey: Guid(d1faac70da014416ab21c4b5cdbbedf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00027.png using Guid(d1faac70da014416ab21c4b5cdbbedf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '768eb401ed7f3a5bafa17206696c91dc') in 0.081989 seconds
+  Import took 0.114602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00042.png
+  artifactKey: Guid(faaa391c7b63142adbb8a89f20602b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00042.png using Guid(faaa391c7b63142adbb8a89f20602b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6efaa57dd86f51663531ef9a93d6735') in 0.123889 seconds
+  Import took 0.145946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00025.png
+  artifactKey: Guid(a00237563fc6a44aabd65df680e1f5ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00025.png using Guid(a00237563fc6a44aabd65df680e1f5ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6ce7e72845743313a56741990f08d40') in 0.086743 seconds
+  Import took 0.093408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00056.png
+  artifactKey: Guid(1c0c33a0e41a44e25a55a971b7770919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00056.png using Guid(1c0c33a0e41a44e25a55a971b7770919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eddbb77e11cdb992adfa65632d86cd3d') in 0.117386 seconds
+  Import took 0.142899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00034.png
+  artifactKey: Guid(aadf01a7300604b1e86e60b72f2562b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00034.png using Guid(aadf01a7300604b1e86e60b72f2562b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2e7a6bab02414bf53ccc8afb5a9b15c') in 0.133847 seconds
+  Import took 0.173693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000755 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00052.png
+  artifactKey: Guid(60d5ed7e416814a4aa9294515e67e0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00052.png using Guid(60d5ed7e416814a4aa9294515e67e0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4a46afc8429b785a9201c6b75e5b0a5') in 0.091342 seconds
+  Import took 0.126946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00040.png
+  artifactKey: Guid(b610a9ad5fffa4591911a2f8c12cbd18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00040.png using Guid(b610a9ad5fffa4591911a2f8c12cbd18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78a01b3b868763dac760fc3d22dd9653') in 0.131925 seconds
+  Import took 0.160410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00030.png
+  artifactKey: Guid(7b53d2e3915e84cf6bc46246ae29378a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00030.png using Guid(7b53d2e3915e84cf6bc46246ae29378a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8ae65f7dea5e9b29c78076f5efb8664') in 0.091640 seconds
+  Import took 0.141716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00054.png
+  artifactKey: Guid(39348fee8cea641e587e0f6cbecdac2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00054.png using Guid(39348fee8cea641e587e0f6cbecdac2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e2152abf6c771f27e6d11c320b834dc') in 0.118606 seconds
+  Import took 0.124436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.426478 seconds.
+  path: Assets/Scenes/Main.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08f9cfcc57fae0be51b4fe16b9d86720') in 0.013819 seconds
+  Import took 0.049260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 133.424531 seconds.
+  path: Assets/Scripts/Asteroid.cs
+  artifactKey: Guid(968a2c69f3841764c956f3eb9095b404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroid.cs using Guid(968a2c69f3841764c956f3eb9095b404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30ad2d6f7f8df8bf26b87dbe99a78f57') in 0.016627 seconds
+  Import took 0.056665 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016115 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.255 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2184 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 103.5 MB.
-System memory in use after: 103.4 MB.
+Unloading 2185 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.9 MB.
+System memory in use after: 103.7 MB.
 
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2682.
-Total: 4.382419 ms (FindLiveObjects: 0.278447 ms CreateObjectMapping: 0.123606 ms MarkObjects: 3.689871 ms  DeleteObjects: 0.287818 ms)
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2684.
+Total: 4.292726 ms (FindLiveObjects: 0.276216 ms CreateObjectMapping: 0.178046 ms MarkObjects: 3.549755 ms  DeleteObjects: 0.286479 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006800 seconds.
+Registered in 0.005753 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.50 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.55 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.085 seconds
+- Completed reload, in  2.846 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2185 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.9 MB.
+System memory in use after: 103.7 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2688.
+Total: 4.194556 ms (FindLiveObjects: 0.268630 ms CreateObjectMapping: 0.195002 ms MarkObjects: 3.469433 ms  DeleteObjects: 0.259259 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 744.788968 seconds.
+  path: Assets/Prefabs/Asteroid.prefab
+  artifactKey: Guid(b32fbe971ff99404eae118d08bba0310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Asteroid.prefab using Guid(b32fbe971ff99404eae118d08bba0310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5799d843f92e268f0915407f8dfbf51e') in 0.234482 seconds
+  Import took 0.270249 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007280 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.869 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2185 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.9 MB.
+System memory in use after: 103.8 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2696.
+Total: 3.970103 ms (FindLiveObjects: 0.253012 ms CreateObjectMapping: 0.098617 ms MarkObjects: 3.337796 ms  DeleteObjects: 0.278447 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 198.377961 seconds.
+  path: Assets/Prefabs/Enemy.prefab
+  artifactKey: Guid(4942561243679784ea9346ca49a7e372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy.prefab using Guid(4942561243679784ea9346ca49a7e372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19f8b2681a4a16a62de312f3987358de') in 0.165032 seconds
+  Import took 0.512205 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007598 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.529 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2185 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.0 MB.
+System memory in use after: 103.8 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2701.
+Total: 5.952253 ms (FindLiveObjects: 0.443998 ms CreateObjectMapping: 0.163320 ms MarkObjects: 5.053548 ms  DeleteObjects: 0.288710 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005968 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.678 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2185 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.1 MB.
+System memory in use after: 103.9 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2705.
+Total: 3.922356 ms (FindLiveObjects: 0.275770 ms CreateObjectMapping: 0.105310 ms MarkObjects: 3.277108 ms  DeleteObjects: 0.261937 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008764 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.220 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2185 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.1 MB.
+System memory in use after: 104.0 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2709.
+Total: 6.692548 ms (FindLiveObjects: 0.303436 ms CreateObjectMapping: 0.131638 ms MarkObjects: 5.804552 ms  DeleteObjects: 0.450245 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 180.924757 seconds.
+  path: Assets/Prefabs/Asteroid.prefab
+  artifactKey: Guid(b32fbe971ff99404eae118d08bba0310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Asteroid.prefab using Guid(b32fbe971ff99404eae118d08bba0310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2061fa908335e47a1e35e48d61e26475') in 0.171985 seconds
+  Import took 0.209358 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006009 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.718 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2185 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.1 MB.
+System memory in use after: 104.0 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2714.
+Total: 4.327979 ms (FindLiveObjects: 0.423472 ms CreateObjectMapping: 0.178046 ms MarkObjects: 3.425257 ms  DeleteObjects: 0.297635 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.417825 seconds.
+  path: Assets/Prefabs/Asteroid.prefab
+  artifactKey: Guid(b32fbe971ff99404eae118d08bba0310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Asteroid.prefab using Guid(b32fbe971ff99404eae118d08bba0310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94dea8ac58732b7d1a107f838c242ebf') in 0.149760 seconds
+  Import took 0.178555 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015141 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.291 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2185 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.1 MB.
+System memory in use after: 104.0 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2719.
+Total: 11.884427 ms (FindLiveObjects: 0.497100 ms CreateObjectMapping: 0.160196 ms MarkObjects: 10.807229 ms  DeleteObjects: 0.415440 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006184 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.002 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2185 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.1 MB.
+System memory in use after: 104.1 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2723.
+Total: 3.846051 ms (FindLiveObjects: 0.290495 ms CreateObjectMapping: 0.127175 ms MarkObjects: 3.159750 ms  DeleteObjects: 0.266399 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008255 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.995 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2185 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.1 MB.
+System memory in use after: 104.1 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2727.
+Total: 4.081660 ms (FindLiveObjects: 0.331548 ms CreateObjectMapping: 0.135207 ms MarkObjects: 3.324409 ms  DeleteObjects: 0.288264 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010213 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.894 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2185 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.1 MB.
+System memory in use after: 104.1 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2731.
+Total: 4.208835 ms (FindLiveObjects: 0.306113 ms CreateObjectMapping: 0.141455 ms MarkObjects: 3.469433 ms  DeleteObjects: 0.289603 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006017 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.339 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2185 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.1 MB.
+System memory in use after: 104.1 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2735.
+Total: 5.934404 ms (FindLiveObjects: 0.583668 ms CreateObjectMapping: 0.195895 ms MarkObjects: 4.860330 ms  DeleteObjects: 0.292280 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011087 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.943 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2184 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 103.5 MB.
-System memory in use after: 103.4 MB.
+Unloading 2185 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.1 MB.
+System memory in use after: 104.1 MB.
 
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2686.
-Total: 4.188309 ms (FindLiveObjects: 0.278447 ms CreateObjectMapping: 0.122713 ms MarkObjects: 3.495761 ms  DeleteObjects: 0.288710 ms)
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2739.
+Total: 3.964302 ms (FindLiveObjects: 0.282909 ms CreateObjectMapping: 0.128514 ms MarkObjects: 3.290942 ms  DeleteObjects: 0.259705 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012422 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.941 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2185 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.2 MB.
+System memory in use after: 104.1 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2743.
+Total: 4.128068 ms (FindLiveObjects: 0.294958 ms CreateObjectMapping: 0.114681 ms MarkObjects: 3.298974 ms  DeleteObjects: 0.417224 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009986 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.195 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2185 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.2 MB.
+System memory in use after: 104.1 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2747.
+Total: 3.813922 ms (FindLiveObjects: 0.288710 ms CreateObjectMapping: 0.114681 ms MarkObjects: 3.143240 ms  DeleteObjects: 0.264614 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008543 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.109 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2185 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.2 MB.
+System memory in use after: 104.1 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2751.
+Total: 4.325301 ms (FindLiveObjects: 0.321285 ms CreateObjectMapping: 0.132530 ms MarkObjects: 3.580098 ms  DeleteObjects: 0.288710 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006755 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.348 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2185 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.2 MB.
+System memory in use after: 104.1 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2755.
+Total: 4.323963 ms (FindLiveObjects: 0.317715 ms CreateObjectMapping: 0.139670 ms MarkObjects: 3.574297 ms  DeleteObjects: 0.289603 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007693 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.144 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2185 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.2 MB.
+System memory in use after: 104.1 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2759.
+Total: 4.210174 ms (FindLiveObjects: 0.312807 ms CreateObjectMapping: 0.143240 ms MarkObjects: 3.461401 ms  DeleteObjects: 0.289157 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1064.758487 seconds.
+  path: Assets/Prefabs/Asteroid.prefab
+  artifactKey: Guid(b32fbe971ff99404eae118d08bba0310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Asteroid.prefab using Guid(b32fbe971ff99404eae118d08bba0310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08b18fc1d536ff61a3d0a154fa128c8a') in 0.137544 seconds
+  Import took 0.146618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.073119 seconds.
+  path: Assets/Prefabs/Asteroid.prefab
+  artifactKey: Guid(b32fbe971ff99404eae118d08bba0310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Asteroid.prefab using Guid(b32fbe971ff99404eae118d08bba0310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08b18fc1d536ff61a3d0a154fa128c8a') in 0.023497 seconds
+  Import took 0.029945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.733089 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00063.png
+  artifactKey: Guid(f87c25168fe154cdb86b0679a3640b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00063.png using Guid(f87c25168fe154cdb86b0679a3640b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f8d97c997a79094a9688c5dd7e9f3da') in 0.570513 seconds
+  Import took 0.633042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00118.png
+  artifactKey: Guid(4d1b489714fa543689153fc1c37a9479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00118.png using Guid(4d1b489714fa543689153fc1c37a9479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7447b1282b3120e412be0ac21b6beacb') in 0.152450 seconds
+  Import took 0.193628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00075.png
+  artifactKey: Guid(4accd28ae0535453b9f439e93b9c0570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00075.png using Guid(4accd28ae0535453b9f439e93b9c0570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaa35ee893897717f5a97f461daddb3c') in 0.165759 seconds
+  Import took 0.204041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00100.png
+  artifactKey: Guid(ad76325917e9443eb9a0f09728104711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00100.png using Guid(ad76325917e9443eb9a0f09728104711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cda0aec178d1b0e776845d952cf2aa5') in 0.222585 seconds
+  Import took 0.270107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00137.png
+  artifactKey: Guid(3e75dbe822c0d4380b358313f1def549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00137.png using Guid(3e75dbe822c0d4380b358313f1def549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b6d29118be6f38bb159ccdcaf06ac44') in 0.212859 seconds
+  Import took 0.244914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00100.png
+  artifactKey: Guid(ad76325917e9443eb9a0f09728104711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00100.png using Guid(ad76325917e9443eb9a0f09728104711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cda0aec178d1b0e776845d952cf2aa5') in 0.044890 seconds
+  Import took 0.051444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00116.png
+  artifactKey: Guid(c3e4898607a8d4fa2aef499aaeef35bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00116.png using Guid(c3e4898607a8d4fa2aef499aaeef35bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef7b392d52d6681d098e0e610ec36e4c') in 0.174027 seconds
+  Import took 0.182068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00147.png
+  artifactKey: Guid(563d3f5cdcb084b09ae82ae4b9d719bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00147.png using Guid(563d3f5cdcb084b09ae82ae4b9d719bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0df3fed243f11821cdefff498894949') in 0.205452 seconds
+  Import took 0.263016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000641 seconds.
+  path: Assets/Game Assets/Sprites/Player_Hurt/Fire_00018.png
+  artifactKey: Guid(6a96bfb47f6b847b18526fa45d03f75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Player_Hurt/Fire_00018.png using Guid(6a96bfb47f6b847b18526fa45d03f75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd00ccd9a3a3f3106243660817fb7d048') in 0.073508 seconds
+  Import took 0.081419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Game Assets/Sprites/Explosion/Explosion_00041.png
+  artifactKey: Guid(93193b36e4c8c42609c1572375516c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Explosion/Explosion_00041.png using Guid(93193b36e4c8c42609c1572375516c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '248ac684ccca54f9af90b34272c5d102') in 0.098108 seconds
+  Import took 0.139712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000430 seconds.
+  path: Assets/Game Assets/Sprites/Player_Turn_Left/Player Turn Left0007.png
+  artifactKey: Guid(be96d907589954304a9aaf149e51d40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Player_Turn_Left/Player Turn Left0007.png using Guid(be96d907589954304a9aaf149e51d40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0db233194fd02bd3b970d0b714b739bc') in 0.166357 seconds
+  Import took 0.173738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Game Assets/Sprites/UI/Lives/One.png
+  artifactKey: Guid(80fba5ece7697c44eacc036539c1b552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/UI/Lives/One.png using Guid(80fba5ece7697c44eacc036539c1b552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c93740b05def8c212a532070112d6751') in 0.072426 seconds
+  Import took 0.096222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Game Assets/Sprites/Power_Ups/Shield/Powerup2_0008_00002.png
+  artifactKey: Guid(e24f9b063a413499c9dedf763aa655fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Power_Ups/Shield/Powerup2_0008_00002.png using Guid(e24f9b063a413499c9dedf763aa655fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '004d562ba416ef95b62c41d914bffdab') in 0.071179 seconds
+  Import took 0.091015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Game Assets/Sprites/Explosion/Explosion_00018.png
+  artifactKey: Guid(0dca7a237738f409aaf402ba9104aef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Explosion/Explosion_00018.png using Guid(0dca7a237738f409aaf402ba9104aef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd39edc0813d171d3694c03f49871c4d8') in 0.216621 seconds
+  Import took 0.237762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000462 seconds.
+  path: Assets/Game Assets/Sprites/Player_Hurt/Fire_00029.png
+  artifactKey: Guid(592a623b9883f40fdbd14650715e348d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Player_Hurt/Fire_00029.png using Guid(592a623b9883f40fdbd14650715e348d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1331de31d61a74790aaaa5cc6ccecf52') in 0.083325 seconds
+  Import took 0.090339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Game Assets/Sprites/Player_Hurt/Fire_00056.png
+  artifactKey: Guid(5ba671ba06a4f473686885c04b0bd004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Player_Hurt/Fire_00056.png using Guid(5ba671ba06a4f473686885c04b0bd004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a5d1c25d0e451463914b45eabf7eb65') in 0.072238 seconds
+  Import took 0.080573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000538 seconds.
+  path: Assets/Game Assets/Sprites/Player_Hurt/Fire_00059.png
+  artifactKey: Guid(991f1fe0ea5d94e65a4e6e2412eb4771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Player_Hurt/Fire_00059.png using Guid(991f1fe0ea5d94e65a4e6e2412eb4771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd411e57752409b2b629216a01431c166') in 0.060242 seconds
+  Import took 0.069146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Game Assets/Sprites/Explosion/Explosion_00014.png
+  artifactKey: Guid(7adc0065acd8041d49a7a3e113b132be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Explosion/Explosion_00014.png using Guid(7adc0065acd8041d49a7a3e113b132be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a407e24c094f393297494ad4b02e2424') in 0.159716 seconds
+  Import took 0.186254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Game Assets/Sprites/Explosion/Explosion_00022.png
+  artifactKey: Guid(c6d32c2b11a7048309fe222249dca004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Explosion/Explosion_00022.png using Guid(c6d32c2b11a7048309fe222249dca004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2328d0bd1ddc9836f397d9494cb1f51') in 0.160933 seconds
+  Import took 0.169345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Game Assets/Sprites/Explosion/Explosion_00025.png
+  artifactKey: Guid(5836ff21d80674e5e842348ac351898c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Explosion/Explosion_00025.png using Guid(5836ff21d80674e5e842348ac351898c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51d05d33f1ff89dab64cc4216ea628e3') in 0.260304 seconds
+  Import took 0.267893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/Game Assets/Sprites/Explosion/Explosion_00048.png
+  artifactKey: Guid(27bc50870b57f41b08916ba8fbf07ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Explosion/Explosion_00048.png using Guid(27bc50870b57f41b08916ba8fbf07ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b06836172570bf439f67de9ee6db49c') in 0.160321 seconds
+  Import took 0.183605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Game Assets/Sprites/Player_Hurt/Fire_00020.png
+  artifactKey: Guid(c3baf7f072a6e4a31b5c6885a925689f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Player_Hurt/Fire_00020.png using Guid(c3baf7f072a6e4a31b5c6885a925689f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba26109eca35eafa0e72662420a84a19') in 0.061610 seconds
+  Import took 0.068905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00142.png
+  artifactKey: Guid(e074f570f1116472f81285fffb357e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00142.png using Guid(e074f570f1116472f81285fffb357e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aea2eefddc9b42310d94a8652563ec10') in 0.124883 seconds
+  Import took 0.132840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000539 seconds.
+  path: Assets/Game Assets/Sprites/Explosion/Explosion_00004.png
+  artifactKey: Guid(3a4a702ebbcd8420192b42dca73ca87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Explosion/Explosion_00004.png using Guid(3a4a702ebbcd8420192b42dca73ca87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2a576bf4b02b3a5f3f1d2b0a12bdf01') in 0.103891 seconds
+  Import took 0.140598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00127.png
+  artifactKey: Guid(f688a9a1039c64add9dc2efc955dcdfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00127.png using Guid(f688a9a1039c64add9dc2efc955dcdfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd52135cce211eb04cc77d08dfb3fea04') in 0.131747 seconds
+  Import took 0.161641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00098.png
+  artifactKey: Guid(9dd317c10b983447a83f82b7fef4d633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00098.png using Guid(9dd317c10b983447a83f82b7fef4d633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '691312c9fb1446de2987845083c5e708') in 0.114273 seconds
+  Import took 0.121865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00113.png
+  artifactKey: Guid(44b3a19248f774d4b852354203f80989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00113.png using Guid(44b3a19248f774d4b852354203f80989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37cf359530c0abefd3abbf3beb784b5d') in 0.136397 seconds
+  Import took 0.167020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Game Assets/Sprites/Explosion/Explosion_00006.png
+  artifactKey: Guid(d89c5abd9258140a3ac8d6f4a5f79ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Explosion/Explosion_00006.png using Guid(d89c5abd9258140a3ac8d6f4a5f79ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15f763fafca3e53e21528145b734581d') in 0.135802 seconds
+  Import took 0.160960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Game Assets/Sprites/Explosion/Explosion_00010.png
+  artifactKey: Guid(7f5a7561fb7104302b9c43f14dc5db21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Explosion/Explosion_00010.png using Guid(7f5a7561fb7104302b9c43f14dc5db21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73caca655c9fb5bc6a2de62788208d92') in 0.062711 seconds
+  Import took 0.084961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000488 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00067.png
+  artifactKey: Guid(08df3257629e94ec6b11640058c08bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00067.png using Guid(08df3257629e94ec6b11640058c08bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6af7c9adb311e1099e1417f2c9dc0dd6') in 0.140535 seconds
+  Import took 0.163502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Game Assets/Sprites/Explosion/Explosion_00020.png
+  artifactKey: Guid(d9e99148b15674c8fafeea7daa557973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Explosion/Explosion_00020.png using Guid(d9e99148b15674c8fafeea7daa557973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc03c4154c57aec6df9d4a123ec846f1') in 0.131405 seconds
+  Import took 0.137442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00139.png
+  artifactKey: Guid(4a0f9bcc3cd534cf2be391e8656bfffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00139.png using Guid(4a0f9bcc3cd534cf2be391e8656bfffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cb732bbf7c45fdbd9883dbb57781f8f') in 0.117151 seconds
+  Import took 0.125876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000610 seconds.
+  path: Assets/Game Assets/Sprites/Explosion/Explosion_00155.png
+  artifactKey: Guid(bc0b4e46959244221b24de8833420178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Explosion/Explosion_00155.png using Guid(bc0b4e46959244221b24de8833420178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db604d72a6621c0fdacaa03a46ee5456') in 0.050300 seconds
+  Import took 0.075095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Game Assets/Sprites/Explosion/Explosion_00034.png
+  artifactKey: Guid(483587f42268942ed88360818f5cca79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Explosion/Explosion_00034.png using Guid(483587f42268942ed88360818f5cca79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '343876a23939194db2a8b843aabfcdd5') in 0.049391 seconds
+  Import took 0.063001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/Game Assets/Sprites/Power_Ups/Speed/Powerup1_0008_00005.psd
+  artifactKey: Guid(d4de74aee97397b44b7df297ba53a688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Power_Ups/Speed/Powerup1_0008_00005.psd using Guid(d4de74aee97397b44b7df297ba53a688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43fd2714c4940f6282d51677f4f1ff78') in 0.062059 seconds
+  Import took 0.074625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/Game Assets/Sprites/Player_Hurt/Fire_00051.png
+  artifactKey: Guid(0d2a3411cd96d4376bfc43624c9d28aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Player_Hurt/Fire_00051.png using Guid(0d2a3411cd96d4376bfc43624c9d28aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f40bbfc035d90e58a719b3a06cd41aff') in 0.056362 seconds
+  Import took 0.063827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/Game Assets/Sprites/Explosion/Explosion_00140.png
+  artifactKey: Guid(e6a7dd5db2aa84619ada18ec501a1491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Explosion/Explosion_00140.png using Guid(e6a7dd5db2aa84619ada18ec501a1491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b857057c1c212e81c190dd59c62608') in 0.049196 seconds
+  Import took 0.057272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000470 seconds.
+  path: Assets/Game Assets/Sprites/Player_Hurt/Fire_00013.png
+  artifactKey: Guid(3a43fe5b2e63b4302a97218aadad922b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Player_Hurt/Fire_00013.png using Guid(3a43fe5b2e63b4302a97218aadad922b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94de4af2c08e17c0a333a9a9b1a64a55') in 0.057974 seconds
+  Import took 0.065236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00131.png
+  artifactKey: Guid(33a3eeb20308c4c789324a42ed6990eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00131.png using Guid(33a3eeb20308c4c789324a42ed6990eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3ccf3851a84347e9f54a33088b1a77e') in 0.132528 seconds
+  Import took 0.167644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00146.png
+  artifactKey: Guid(01f3a146967724f9ea412d80618110bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00146.png using Guid(01f3a146967724f9ea412d80618110bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ec9279788b5e2d164142233bd2a2adf') in 0.120104 seconds
+  Import took 0.154613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Game Assets/Sprites/UI/Lives/no_lives.png
+  artifactKey: Guid(ba53e111f0125654cabfd4eefaf3a657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/UI/Lives/no_lives.png using Guid(ba53e111f0125654cabfd4eefaf3a657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f06faacd1fb61d56e3b10d4fd1277748') in 0.042644 seconds
+  Import took 0.057473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000406 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00138.png
+  artifactKey: Guid(21419a1c4500a4dd2acc2fb59ca93f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00138.png using Guid(21419a1c4500a4dd2acc2fb59ca93f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c64759cf3c66c5b11e050851640b2a95') in 0.104858 seconds
+  Import took 0.123436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00143.png
+  artifactKey: Guid(84643580c143947d693b68e50d125c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00143.png using Guid(84643580c143947d693b68e50d125c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71355c2ff1aebe4a6956d4a97e21f632') in 0.116992 seconds
+  Import took 0.123361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Game Assets/Sprites/Explosion/Explosion_00151.png
+  artifactKey: Guid(9af57da9ef0c745f4be8c14339aa9ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Explosion/Explosion_00151.png using Guid(9af57da9ef0c745f4be8c14339aa9ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61aa7c4f29fcf4a48be4d0208392b453') in 0.062468 seconds
+  Import took 0.088712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Game Assets/Sprites/Player_Hurt/Fire_00016.png
+  artifactKey: Guid(722a3c01e00aa43119d64afdf55c050a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Player_Hurt/Fire_00016.png using Guid(722a3c01e00aa43119d64afdf55c050a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30f9b2e42b455df0834e04293d649a68') in 0.056013 seconds
+  Import took 0.069050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00065.png
+  artifactKey: Guid(8abc14a23d39040a488923e56a4c8234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00065.png using Guid(8abc14a23d39040a488923e56a4c8234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b457603419454888d6c0163408fb78a2') in 0.197536 seconds
+  Import took 0.247202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000447 seconds.
+  path: Assets/Game Assets/Sprites/Player_Hurt/Fire_00014.png
+  artifactKey: Guid(9a5e85981da1341a3b0be48ac9018850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Player_Hurt/Fire_00014.png using Guid(9a5e85981da1341a3b0be48ac9018850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b18016a10060b9c8b5fc1e21014ff7d7') in 0.086377 seconds
+  Import took 0.112837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Game Assets/Sprites/Explosion/Explosion_00154.png
+  artifactKey: Guid(4f919d68f9ccb46b99ea3df7d2d8ed5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Explosion/Explosion_00154.png using Guid(4f919d68f9ccb46b99ea3df7d2d8ed5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bf08ef73f64629884a798c5ce015452') in 0.146256 seconds
+  Import took 0.160794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/Game Assets/Sprites/Player_Hurt/Fire_00009.png
+  artifactKey: Guid(224dd748214e4487e9684ed76189e72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Player_Hurt/Fire_00009.png using Guid(224dd748214e4487e9684ed76189e72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57b0329066d4b9df414539a37c0babd4') in 0.046421 seconds
+  Import took 0.053351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000593 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00148.png
+  artifactKey: Guid(70e162b6c360844aa951ab4b8bfec52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00148.png using Guid(70e162b6c360844aa951ab4b8bfec52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3488ba4dd7f27345a7e223d01d9a2dde') in 0.086900 seconds
+  Import took 0.097316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000613 seconds.
+  path: Assets/Game Assets/Sprites/Player_Hurt/Fire_00017.png
+  artifactKey: Guid(98e39fe546a914dcc9274ea19783befc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Player_Hurt/Fire_00017.png using Guid(98e39fe546a914dcc9274ea19783befc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea46d9e5dad8c5f2daf74449c6b833ef') in 0.041367 seconds
+  Import took 0.059816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Game Assets/Sprites/Player_Turn_Right/Player Turn Right0007.png
+  artifactKey: Guid(a5dba836ea2bb43149e8e73f5dbc6978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Player_Turn_Right/Player Turn Right0007.png using Guid(a5dba836ea2bb43149e8e73f5dbc6978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a967179600a269de4b60de821716f0c') in 0.144885 seconds
+  Import took 0.178551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000576 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00121.png
+  artifactKey: Guid(66cd051153bd041f69be2ffb6ac55681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00121.png using Guid(66cd051153bd041f69be2ffb6ac55681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '771dbf8eaef25a1253c3e7eccf410f0d') in 0.130600 seconds
+  Import took 0.139806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Game Assets/Sprites/Player_Turn_Left/Player Turn Left0005.png
+  artifactKey: Guid(35a20c271ee5445c6b637c26ef35a015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Player_Turn_Left/Player Turn Left0005.png using Guid(35a20c271ee5445c6b637c26ef35a015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9063cbcbe2b86cbaa8a7fa438c42f89e') in 0.158369 seconds
+  Import took 0.200062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000781 seconds.
+  path: Assets/Game Assets/Sprites/Player_Turn_Left/Player Turn Left0006.png
+  artifactKey: Guid(bb173694be00148b4bc0ebfa1a1e58ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Player_Turn_Left/Player Turn Left0006.png using Guid(bb173694be00148b4bc0ebfa1a1e58ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03bc8782aa74029af0e432a849b32b57') in 0.100610 seconds
+  Import took 0.158780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Game Assets/Sprites/Explosion/Explosion_00146.png
+  artifactKey: Guid(9f5baae5bc65c493aad490c91754942f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Explosion/Explosion_00146.png using Guid(9f5baae5bc65c493aad490c91754942f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42897afc7f04ad8c6e7a49f4023c33b4') in 0.081540 seconds
+  Import took 0.090647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000450 seconds.
+  path: Assets/Game Assets/Sprites/UI/MainMenu.png
+  artifactKey: Guid(80c6ed412bb1f4445bbb19730dc9d1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/UI/MainMenu.png using Guid(80c6ed412bb1f4445bbb19730dc9d1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f56694a4194bb3906cd4fe3dd0cd5dc') in 0.098679 seconds
+  Import took 0.106075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00144.png
+  artifactKey: Guid(afef5f3dfcf5b46dabc39a648574cf2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00144.png using Guid(afef5f3dfcf5b46dabc39a648574cf2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14eaabbb8a718e171941803f149804fc') in 0.109369 seconds
+  Import took 0.115201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00096.png
+  artifactKey: Guid(668162a062acf44dd893a50281735f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00096.png using Guid(668162a062acf44dd893a50281735f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '623abb6682ddbbb12c720957f2912349') in 0.143771 seconds
+  Import took 0.176220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000647 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00104.png
+  artifactKey: Guid(83deed78386d64b15b381c059bac0601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00104.png using Guid(83deed78386d64b15b381c059bac0601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1149345a10b339ff7bc9bfd4828775b') in 0.113183 seconds
+  Import took 0.121469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/Game Assets/Sprites/Explosion/Explosion_00038.png
+  artifactKey: Guid(1e507e951415d43b7b1d7c35b1cca3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Explosion/Explosion_00038.png using Guid(1e507e951415d43b7b1d7c35b1cca3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '586a0f0378cfae3e0846da2f7b26f633') in 0.069128 seconds
+  Import took 0.077805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Game Assets/Sprites/Explosion/Explosion_00017.png
+  artifactKey: Guid(e341161a4a28d43d2acab309a9952db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Explosion/Explosion_00017.png using Guid(e341161a4a28d43d2acab309a9952db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6e508c389af612f15cd02c932b9bb05') in 0.139444 seconds
+  Import took 0.146278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Game Assets/Sprites/Player_Hurt/Fire_00019.png
+  artifactKey: Guid(724814e4658a14ea781207ca48fa2177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Player_Hurt/Fire_00019.png using Guid(724814e4658a14ea781207ca48fa2177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a45ae0ab29c1e06d4392efbcdf0935a') in 0.043423 seconds
+  Import took 0.073072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/Game Assets/Sprites/Explosion/Explosion_00044.png
+  artifactKey: Guid(d4d199e3b3cfa409eb3a17ed2d590064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Explosion/Explosion_00044.png using Guid(d4d199e3b3cfa409eb3a17ed2d590064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56b752c613aecbc04e70ec50b458ba68') in 0.076547 seconds
+  Import took 0.084379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Game Assets/Sprites/Explosion/Explosion_00015.png
+  artifactKey: Guid(fca63c482ee214bfba957504445b68f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Explosion/Explosion_00015.png using Guid(fca63c482ee214bfba957504445b68f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a185b0c2a7a629642906c4cbf157c4aa') in 0.125231 seconds
+  Import took 0.158182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Game Assets/Sprites/Explosion/Explosion_00005.png
+  artifactKey: Guid(f725332a62c60433ea73daa985ae5448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Explosion/Explosion_00005.png using Guid(f725332a62c60433ea73daa985ae5448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a9a6ca7a1d3c230bb17ac3d203cbc8e') in 0.063772 seconds
+  Import took 0.072985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00071.png
+  artifactKey: Guid(2f5d425c73b7346deb66ad43bc36553c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00071.png using Guid(2f5d425c73b7346deb66ad43bc36553c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dd9efb4d82a526fdbaa19b9987e0d7f') in 0.236821 seconds
+  Import took 0.244220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Game Assets/Sprites/Player_Hurt/Fire_00049.png
+  artifactKey: Guid(83d054dcc582b4d6eb36b4ed9bad218c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Player_Hurt/Fire_00049.png using Guid(83d054dcc582b4d6eb36b4ed9bad218c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33bbf5128d3140183d97f152c8e5aa17') in 0.105300 seconds
+  Import took 0.131143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Game Assets/Sprites/Player_Turn_Left/Player Turn Left0004.png
+  artifactKey: Guid(053a77bc50ed441899c0d5a4bf34cb74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Player_Turn_Left/Player Turn Left0004.png using Guid(053a77bc50ed441899c0d5a4bf34cb74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f6acf8d49eaf863654ed9be7afec452') in 0.111072 seconds
+  Import took 0.118008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00090.png
+  artifactKey: Guid(7e429ad99b4ca41d696825f6567da7eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00090.png using Guid(7e429ad99b4ca41d696825f6567da7eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '451db9ab28464ea8fb4575c594b1d12f') in 0.105523 seconds
+  Import took 0.114116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/Game Assets/Sprites/Player_Hurt/Fire_00025.png
+  artifactKey: Guid(0fb0c86510f5247809520525f9b15564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Player_Hurt/Fire_00025.png using Guid(0fb0c86510f5247809520525f9b15564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a642bc9907d92f8ce0d5597a6d990ef') in 0.087121 seconds
+  Import took 0.095052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/Game Assets/Sprites/Explosion/Explosion_00012.png
+  artifactKey: Guid(59dc8206b425e443da36e22e07715b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Explosion/Explosion_00012.png using Guid(59dc8206b425e443da36e22e07715b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e20f1dfe433d51dbad6eb9373f411283') in 0.072095 seconds
+  Import took 0.104707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Game Assets/Sprites/Explosion/Explosion_00033.png
+  artifactKey: Guid(da1612aaa301646588e6c6402b861909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Explosion/Explosion_00033.png using Guid(da1612aaa301646588e6c6402b861909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95ed95d2428f23998579c011ee8ecfd0') in 0.065803 seconds
+  Import took 0.085191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Assets/Game Assets/Sprites/Explosion/Explosion_00027.png
+  artifactKey: Guid(0b8575480da734a70a059cf9eb025b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Explosion/Explosion_00027.png using Guid(0b8575480da734a70a059cf9eb025b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d2ecc3d744e4231546c7267a590b412') in 0.047842 seconds
+  Import took 0.069782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/Game Assets/Sprites/Explosion/Explosion_00152.png
+  artifactKey: Guid(ca295c8a632534908992189e287f5c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Explosion/Explosion_00152.png using Guid(ca295c8a632534908992189e287f5c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d2efad676b0a3fe9bc960c06b3fada0') in 0.141720 seconds
+  Import took 0.150111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000547 seconds.
+  path: Assets/Game Assets/Sprites/Explosion/Explosion_00145.png
+  artifactKey: Guid(0d1751003544c4e3fa250cb2194bcb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Explosion/Explosion_00145.png using Guid(0d1751003544c4e3fa250cb2194bcb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c36912125390101aa1b2fa728f95c9a') in 0.100871 seconds
+  Import took 0.108668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00124.png
+  artifactKey: Guid(fce84c92f155849cb998a2a6665c70c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00124.png using Guid(fce84c92f155849cb998a2a6665c70c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17e2fc995f296252212c0b9edbd3db9b') in 0.149640 seconds
+  Import took 0.159865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000497 seconds.
+  path: Assets/Game Assets/Sprites/Player_Hurt/Fire_00024.png
+  artifactKey: Guid(e8e2896cc975648b7adf47a617864e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Player_Hurt/Fire_00024.png using Guid(e8e2896cc975648b7adf47a617864e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a5aba79b7d84a72c3128b78e8434412') in 0.073257 seconds
+  Import took 0.121188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/Game Assets/Sprites/Explosion/Explosion_00028.png
+  artifactKey: Guid(fb94d9903666f457bbf880509d77fe7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Explosion/Explosion_00028.png using Guid(fb94d9903666f457bbf880509d77fe7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bcd7dd773aeaba9c94f151f047044d1') in 0.173137 seconds
+  Import took 0.179775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Game Assets/Sprites/Player_Hurt/Fire_00028.png
+  artifactKey: Guid(6cb37fc16ab2947838824fe5e8699f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Player_Hurt/Fire_00028.png using Guid(6cb37fc16ab2947838824fe5e8699f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29ff200b637ef28faadb6dac98e8e577') in 0.043519 seconds
+  Import took 0.049327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Game Assets/Sprites/Explosion/Explosion_00045.png
+  artifactKey: Guid(b2bd7f3ae967f4084a3750a2eaada7ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Explosion/Explosion_00045.png using Guid(b2bd7f3ae967f4084a3750a2eaada7ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23f8224f12bb6c9b336e675afd7cd2b9') in 0.063470 seconds
+  Import took 0.069999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Game Assets/Sprites/Player_Hurt/Fire_00060.png
+  artifactKey: Guid(d83579cdff4734088a5d1cc6055da698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Player_Hurt/Fire_00060.png using Guid(d83579cdff4734088a5d1cc6055da698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ab32ca5e5f0e71c039ed652be35c6e6') in 0.058432 seconds
+  Import took 0.089050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00108.png
+  artifactKey: Guid(bb51d9105de0a4dc192aef6dab9653f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00108.png using Guid(bb51d9105de0a4dc192aef6dab9653f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79d3fe97f2600975e0d704d12f244ec0') in 0.119420 seconds
+  Import took 0.146855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000502 seconds.
+  path: Assets/Game Assets/Sprites/Player_Hurt/Fire_00026.png
+  artifactKey: Guid(fa4dc24a6c9ef4e0d80f4f29e81f5c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Player_Hurt/Fire_00026.png using Guid(fa4dc24a6c9ef4e0d80f4f29e81f5c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e497cb8687555d724280c4f66558868a') in 0.092138 seconds
+  Import took 0.112759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/Game Assets/Sprites/Explosion/Explosion_00047.png
+  artifactKey: Guid(737a16533b57349d6bd1937e67b3c7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Explosion/Explosion_00047.png using Guid(737a16533b57349d6bd1937e67b3c7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fac7dd5d583b56bd7c0e039610690c1') in 0.064105 seconds
+  Import took 0.076236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00140.png
+  artifactKey: Guid(49e3717e3ec844273bb5bb7dcda8600d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00140.png using Guid(49e3717e3ec844273bb5bb7dcda8600d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f2e8fe190acd5759988032fccaa9f79') in 0.142087 seconds
+  Import took 0.149969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00077.png
+  artifactKey: Guid(726517c70e04b473c808b0c93801b978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00077.png using Guid(726517c70e04b473c808b0c93801b978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '327b17055d899d8bdd7ff3819782ef8d') in 0.155543 seconds
+  Import took 0.161677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Game Assets/Sprites/Explosion/Explosion_00039.png
+  artifactKey: Guid(0c07d4b493afb43158afaae5c2dfb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Explosion/Explosion_00039.png using Guid(0c07d4b493afb43158afaae5c2dfb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de02fe02d39e472193aab7f58c31d493') in 0.063276 seconds
+  Import took 0.086255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/Game Assets/Sprites/Explosion/Explosion_00153.png
+  artifactKey: Guid(33875e9041f4c49f0b4d0fe1d309f182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Explosion/Explosion_00153.png using Guid(33875e9041f4c49f0b4d0fe1d309f182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc5f04071d5f6b54c01708cddbbf1b85') in 0.126693 seconds
+  Import took 0.141440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Game Assets/Sprites/Explosion/Explosion_00024.png
+  artifactKey: Guid(cee3a33e0c0d24f7183d86e8472b95fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Explosion/Explosion_00024.png using Guid(cee3a33e0c0d24f7183d86e8472b95fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eadb2bfaaf29a284a820c4893981089c') in 0.153311 seconds
+  Import took 0.178974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000560 seconds.
+  path: Assets/Game Assets/Sprites/Player_Turn_Right/Player Turn Right0003.png
+  artifactKey: Guid(642f2ccf679e74095a9a13fa5e839005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Player_Turn_Right/Player Turn Right0003.png using Guid(642f2ccf679e74095a9a13fa5e839005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a906a572097848a804789214c3bbdfa8') in 0.164272 seconds
+  Import took 0.197110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/Game Assets/Sprites/Player_Hurt/Fire_00023.png
+  artifactKey: Guid(85f8eff109860470380608e2e9ab2455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Player_Hurt/Fire_00023.png using Guid(85f8eff109860470380608e2e9ab2455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e154b4bd46072bb5e40bdec857caef90') in 0.081469 seconds
+  Import took 0.088089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Game Assets/Sprites/Player_Hurt/Fire_00015.png
+  artifactKey: Guid(ff51c104d85124c8fb1eb734a7fdf6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Player_Hurt/Fire_00015.png using Guid(ff51c104d85124c8fb1eb734a7fdf6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '424dcbf5728a01916132aa3accbe70b4') in 0.049799 seconds
+  Import took 0.058459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Game Assets/Sprites/Player_Hurt/Fire_00058.png
+  artifactKey: Guid(99ae4220665ea4376ad2e9797d8e64cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Player_Hurt/Fire_00058.png using Guid(99ae4220665ea4376ad2e9797d8e64cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27ad455ee0851c05f1dcb970ddce451c') in 0.069527 seconds
+  Import took 0.089703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00135.png
+  artifactKey: Guid(97b6ff619964d47f084862f447c9b737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00135.png using Guid(97b6ff619964d47f084862f447c9b737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '963ac21ea60a7a6b8ed30b573ee935ee') in 0.112172 seconds
+  Import took 0.120263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Game Assets/Sprites/Explosion/Explosion_00019.png
+  artifactKey: Guid(728e978a6cfae49cbb7976d992c3cf94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Explosion/Explosion_00019.png using Guid(728e978a6cfae49cbb7976d992c3cf94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d30ec8644a4b702677f67a2133dfd60') in 0.063701 seconds
+  Import took 0.096336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000826 seconds.
+  path: Assets/Game Assets/Sprites/Player_Hurt/Fire_00004.png
+  artifactKey: Guid(4be304567ca9445c6b56e5ee5ba36e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Player_Hurt/Fire_00004.png using Guid(4be304567ca9445c6b56e5ee5ba36e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e9a05e599ca8032b90b6b3f225f4573') in 0.043834 seconds
+  Import took 0.050551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Game Assets/Sprites/Player_Hurt/Fire_00022.png
+  artifactKey: Guid(c7fc4a7c32ed244a7b332d7f47f69338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Player_Hurt/Fire_00022.png using Guid(c7fc4a7c32ed244a7b332d7f47f69338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '038be256312260fe2ee968e74f6de25f') in 0.053819 seconds
+  Import took 0.061359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/Game Assets/Sprites/Player_Hurt/Fire_00050.png
+  artifactKey: Guid(f449401c728d848b8afd50c0d87cae15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Player_Hurt/Fire_00050.png using Guid(f449401c728d848b8afd50c0d87cae15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7129486289632f730269c0f42d1bd47b') in 0.060659 seconds
+  Import took 0.069922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Game Assets/Sprites/Explosion/Explosion_00035.png
+  artifactKey: Guid(1ee9cc02707fb4224a9c275dab761821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Explosion/Explosion_00035.png using Guid(1ee9cc02707fb4224a9c275dab761821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cca20cbbfa3446d8d60a8f71e70966f') in 0.126406 seconds
+  Import took 0.154116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Game Assets/Sprites/Player_Hurt/Fire_00010.png
+  artifactKey: Guid(dec50e29c7aaf419296f5bd4367f7267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Player_Hurt/Fire_00010.png using Guid(dec50e29c7aaf419296f5bd4367f7267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eacf3e9b2f951507e36595d90f4db364') in 0.074384 seconds
+  Import took 0.081149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Game Assets/Sprites/Player_Hurt/Fire_00007.png
+  artifactKey: Guid(b37409cf2b45a4d51ab5b6dbe749dfb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Player_Hurt/Fire_00007.png using Guid(b37409cf2b45a4d51ab5b6dbe749dfb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4afc9503f71f7d792f05b00215853fa') in 0.042769 seconds
+  Import took 0.050530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000601 seconds.
+  path: Assets/Game Assets/Sprites/Explosion/Explosion_00036.png
+  artifactKey: Guid(a73a4cf8a8bf549ba95c6ae503827b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Explosion/Explosion_00036.png using Guid(a73a4cf8a8bf549ba95c6ae503827b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '743d56669c334cef79f0b9b8bc1b9f68') in 0.162096 seconds
+  Import took 0.172447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Game Assets/Sprites/Explosion/Explosion_00026.png
+  artifactKey: Guid(63fa5fad1d86d4b0891ea2e4a3feeb60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Explosion/Explosion_00026.png using Guid(63fa5fad1d86d4b0891ea2e4a3feeb60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06d57fca3ca960bc485e4a269fd70810') in 0.121907 seconds
+  Import took 0.134849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Game Assets/Sprites/Player_Turn_Left/Player Turn Left0001.png
+  artifactKey: Guid(9284343f055144054b5d7f5a72d1dbb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Player_Turn_Left/Player Turn Left0001.png using Guid(9284343f055144054b5d7f5a72d1dbb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aada3542685fffea1d8657e523603ba3') in 0.181475 seconds
+  Import took 0.249547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000829 seconds.
+  path: Assets/Game Assets/Sprites/Player_Hurt/Fire_00003.png
+  artifactKey: Guid(39b1fc19ce0e74adba602f7441753d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Player_Hurt/Fire_00003.png using Guid(39b1fc19ce0e74adba602f7441753d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c590821850de156b115a028103b0e0ac') in 0.086542 seconds
+  Import took 0.096579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Game Assets/Sprites/Player_Hurt/Fire_00008.png
+  artifactKey: Guid(a988e2147f21b42eeafdd6d67a1398c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Player_Hurt/Fire_00008.png using Guid(a988e2147f21b42eeafdd6d67a1398c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '888a050b48a4b67b3077f23aae43ac44') in 0.053040 seconds
+  Import took 0.076971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Game Assets/Sprites/Player_Hurt/Fire_00048.png
+  artifactKey: Guid(b36b17ba45be141249c2ca637dd5e301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Player_Hurt/Fire_00048.png using Guid(b36b17ba45be141249c2ca637dd5e301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52058c61c52179b74a9b54eaf619ab36') in 0.043158 seconds
+  Import took 0.049891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Game Assets/Sprites/Explosion/Explosion_00030.png
+  artifactKey: Guid(e899bf50f8a004016aca9245c33d0a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Explosion/Explosion_00030.png using Guid(e899bf50f8a004016aca9245c33d0a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54623a62ee5403835b4e84b2e4ea1642') in 0.140897 seconds
+  Import took 0.174451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000537 seconds.
+  path: Assets/Game Assets/Sprites/Explosion/Explosion_00040.png
+  artifactKey: Guid(b660efbdf97964f6496f64297db827bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Explosion/Explosion_00040.png using Guid(b660efbdf97964f6496f64297db827bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15e1e09eeed78127762f7a2107e50f1b') in 0.096924 seconds
+  Import took 0.104231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Game Assets/Sprites/Player_Hurt/Fire_00055.png
+  artifactKey: Guid(9762b8f440aef4ced949fec76db6ccf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Player_Hurt/Fire_00055.png using Guid(9762b8f440aef4ced949fec76db6ccf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3be3da050e5cc56eb36e5a128db90626') in 0.049659 seconds
+  Import took 0.056549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Game Assets/Sprites/Explosion/Explosion_00142.png
+  artifactKey: Guid(3dc106126d32d4a10831f237ec0b12c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Explosion/Explosion_00142.png using Guid(3dc106126d32d4a10831f237ec0b12c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59e21cd41fcd0cdf6d219fc63813ec9d') in 0.050385 seconds
+  Import took 0.069328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00128.png
+  artifactKey: Guid(d45eae35d3b4446a2b8c6e20d26853ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00128.png using Guid(d45eae35d3b4446a2b8c6e20d26853ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7296d2fa4d7e1c18cd77f97553681eab') in 0.132240 seconds
+  Import took 0.139799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Game Assets/Sprites/Player_Hurt/Fire_00052.png
+  artifactKey: Guid(87eace5b881694ddaaa05fb60497ded5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Player_Hurt/Fire_00052.png using Guid(87eace5b881694ddaaa05fb60497ded5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f3f68dff605c7a6fba48136659177e4') in 0.059264 seconds
+  Import took 0.069648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00132.png
+  artifactKey: Guid(492b613d1262b446f8c8e5130a4aaf8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00132.png using Guid(492b613d1262b446f8c8e5130a4aaf8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e840d437d74e1cf639827873f6b51477') in 0.104647 seconds
+  Import took 0.112774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/Game Assets/Sprites/Player_Hurt/Fire_00005.png
+  artifactKey: Guid(91900bc67e3194397973b97573d7871a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Player_Hurt/Fire_00005.png using Guid(91900bc67e3194397973b97573d7871a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c936c911edf70fd75eb0525201181450') in 0.053648 seconds
+  Import took 0.062934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000479 seconds.
+  path: Assets/Game Assets/Sprites/Explosion/Explosion_00148.png
+  artifactKey: Guid(3dc51c651944b4c53b64f9744b7d656b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Explosion/Explosion_00148.png using Guid(3dc51c651944b4c53b64f9744b7d656b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ad7aedd38cdf6295df1004a60628b0b') in 0.143405 seconds
+  Import took 0.151065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Game Assets/Sprites/Power_Ups/Shield/Powerup2_0008_00001.png
+  artifactKey: Guid(d4c04a6e02a3c4a41b8a8c547a881c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Power_Ups/Shield/Powerup2_0008_00001.png using Guid(d4c04a6e02a3c4a41b8a8c547a881c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06dabb55e9263e4bb40dd1f26d835b3f') in 0.061113 seconds
+  Import took 0.069370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Game Assets/Sprites/Player_Hurt/Fire_00001.png
+  artifactKey: Guid(b9b1e0bfea2594a8ab7c72b806ba1f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Player_Hurt/Fire_00001.png using Guid(b9b1e0bfea2594a8ab7c72b806ba1f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5b1b1ca612d737289e5447c6c60a92a') in 0.055577 seconds
+  Import took 0.064602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Game Assets/Sprites/Explosion/Explosion_00042.png
+  artifactKey: Guid(e9a04f6310f2b46548307c3f6c9d969c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Explosion/Explosion_00042.png using Guid(e9a04f6310f2b46548307c3f6c9d969c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b2f3c5f3dd6c0365daa93cb6d2663df') in 0.159238 seconds
+  Import took 0.192408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000532 seconds.
+  path: Assets/Game Assets/Sprites/Explosion/Explosion_00147.png
+  artifactKey: Guid(e743cdaed082647e798d8145ff889a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Explosion/Explosion_00147.png using Guid(e743cdaed082647e798d8145ff889a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '460f9cae3cf0311c2afbb51cb7e3527c') in 0.098508 seconds
+  Import took 0.132561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00129.png
+  artifactKey: Guid(14449546fc0374a39b8756c3526a57a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00129.png using Guid(14449546fc0374a39b8756c3526a57a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b0b94119531341ddff678d5eaa772e4') in 0.113649 seconds
+  Import took 0.143159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000849 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00136.png
+  artifactKey: Guid(ad33bc097a57f46b4aa7b996a05f2380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00136.png using Guid(ad33bc097a57f46b4aa7b996a05f2380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac8392ad7638069f6ab47a3d57149cb') in 0.150251 seconds
+  Import took 0.171484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Game Assets/Sprites/Explosion/Explosion_00002.png
+  artifactKey: Guid(78971ab2e8fdc493a89653a7f0cc5b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Explosion/Explosion_00002.png using Guid(78971ab2e8fdc493a89653a7f0cc5b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1c80c52257aad92c4bd88af0d9b4794') in 0.227878 seconds
+  Import took 0.253922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000493 seconds.
+  path: Assets/Game Assets/Sprites/Player_Hurt/Fire_00053.png
+  artifactKey: Guid(02c84fb491fb84f9983957933d7b1958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Player_Hurt/Fire_00053.png using Guid(02c84fb491fb84f9983957933d7b1958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74bc2c2d90fe18cd29c29b0c65aff1ec') in 0.155786 seconds
+  Import took 0.182231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000726 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00081.png
+  artifactKey: Guid(8df81356ffb824167b05eb24cb7744bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00081.png using Guid(8df81356ffb824167b05eb24cb7744bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59551f5d599d0389a747e1221338eae9') in 0.283081 seconds
+  Import took 0.301963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000943 seconds.
+  path: Assets/Game Assets/Sprites/Explosion/Explosion_00003.png
+  artifactKey: Guid(daf5661546aee426997534d69e803087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Explosion/Explosion_00003.png using Guid(daf5661546aee426997534d69e803087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84e82762717cf6a385ebc935467b4564') in 0.214478 seconds
+  Import took 0.228489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00145.png
+  artifactKey: Guid(7a9d67c43709d428585c006de18dd2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00145.png using Guid(7a9d67c43709d428585c006de18dd2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b0cb741fa17f40056d8dc495593c499') in 0.198209 seconds
+  Import took 0.232390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Game Assets/Sprites/Player_Hurt/Fire_00021.png
+  artifactKey: Guid(f5a17a2710d6e4947b7dbd6f09df0e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Player_Hurt/Fire_00021.png using Guid(f5a17a2710d6e4947b7dbd6f09df0e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1cc8de7f926a76f4c2ee3c021972061') in 0.127330 seconds
+  Import took 0.158632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000635 seconds.
+  path: Assets/Game Assets/Sprites/Player_Hurt/Fire_00054.png
+  artifactKey: Guid(93e497a954ee0430ca3a9f7cda480248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Player_Hurt/Fire_00054.png using Guid(93e497a954ee0430ca3a9f7cda480248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '529abf97359c682127d3e1023ef35b85') in 0.107100 seconds
+  Import took 0.130419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000544 seconds.
+  path: Assets/Game Assets/Sprites/Explosion/Explosion_00013.png
+  artifactKey: Guid(57fcb5d1186e648ca95a778c850f72cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Explosion/Explosion_00013.png using Guid(57fcb5d1186e648ca95a778c850f72cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50e95c0835cdcd5bd846def548606f15') in 0.147510 seconds
+  Import took 0.165742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000697 seconds.
+  path: Assets/Game Assets/Sprites/Explosion/Explosion_00016.png
+  artifactKey: Guid(f8122fc90a32740bbb5e4454c086b3b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Explosion/Explosion_00016.png using Guid(f8122fc90a32740bbb5e4454c086b3b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e2f409beecc958d2a11c068a606f3c2') in 0.174617 seconds
+  Import took 0.184243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000433 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00130.png
+  artifactKey: Guid(204219265ff234b29a02de351879e27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00130.png using Guid(204219265ff234b29a02de351879e27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d7f193bf0737aa5bcf7743b93a6543e') in 0.111803 seconds
+  Import took 0.122279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00079.png
+  artifactKey: Guid(63bc29a8c12e6450893989f7f66125d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00079.png using Guid(63bc29a8c12e6450893989f7f66125d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a789748f6dcad31c1782cbdbc347819') in 0.181279 seconds
+  Import took 0.190523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00073.png
+  artifactKey: Guid(0074fdee9a2fb4e63b6051589b555bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00073.png using Guid(0074fdee9a2fb4e63b6051589b555bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a70d2be81a7946baf64bb3fc259a07ce') in 0.123144 seconds
+  Import took 0.133564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/Game Assets/Sprites/Player_Turn_Right/Player Turn Right0001.png
+  artifactKey: Guid(b3ab8b6c15fbb4bf5bdca33e151a4d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Player_Turn_Right/Player Turn Right0001.png using Guid(b3ab8b6c15fbb4bf5bdca33e151a4d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adfe7fbee57dae998ae5c1ee28703660') in 0.164656 seconds
+  Import took 0.199878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/Game Assets/Sprites/Player_Turn_Right/Player Turn Right0006.png
+  artifactKey: Guid(859bb78ca669f4810a60697db925b402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Player_Turn_Right/Player Turn Right0006.png using Guid(859bb78ca669f4810a60697db925b402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bbb1e4f34e752e8d0a353a4dcc9170d') in 0.115699 seconds
+  Import took 0.124652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000526 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00092.png
+  artifactKey: Guid(529aa54b27f9047d0a04bea0e2a94ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00092.png using Guid(529aa54b27f9047d0a04bea0e2a94ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4afcb9773081977f89c8f709bd8d6ab8') in 0.129722 seconds
+  Import took 0.140617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00141.png
+  artifactKey: Guid(6229f2e9facb04598a4ad936d7706937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00141.png using Guid(6229f2e9facb04598a4ad936d7706937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7310e95d13c8b9321746586d4f47cb42') in 0.130512 seconds
+  Import took 0.157864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000522 seconds.
+  path: Assets/Game Assets/Sprites/Player_Turn_Left/Player Turn Left0003.png
+  artifactKey: Guid(07f1dc456c0c944c69246ec5b62e015a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Player_Turn_Left/Player Turn Left0003.png using Guid(07f1dc456c0c944c69246ec5b62e015a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85121d782b5db20df2c1e829ddc8ff41') in 0.113387 seconds
+  Import took 0.123661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000457 seconds.
+  path: Assets/Game Assets/Sprites/Player_Hurt/Fire_00006.png
+  artifactKey: Guid(91d6b4f7541d04f8a84b544e2ba320f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Player_Hurt/Fire_00006.png using Guid(91d6b4f7541d04f8a84b544e2ba320f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5efc45ca696073d05b68c6f841f2f7c8') in 0.077505 seconds
+  Import took 0.088393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000460 seconds.
+  path: Assets/Game Assets/Sprites/Explosion/Explosion_00023.png
+  artifactKey: Guid(91196a906389c471f8593f534e66a4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Explosion/Explosion_00023.png using Guid(91196a906389c471f8593f534e66a4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd62687b7de6105d218e2e36fb7c78c5') in 0.191757 seconds
+  Import took 0.200936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Game Assets/Sprites/Explosion/Explosion_00037.png
+  artifactKey: Guid(78abec5866bd848ef811a229b8b2fa76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Explosion/Explosion_00037.png using Guid(78abec5866bd848ef811a229b8b2fa76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdb175e0cfc3ec0ee04baa1976bf0de7') in 0.188586 seconds
+  Import took 0.236078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000928 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00133.png
+  artifactKey: Guid(1151a885ef3de475983a9c99a7700a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00133.png using Guid(1151a885ef3de475983a9c99a7700a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '823a0e5d734c928c4adf6b05636aa05b') in 0.124880 seconds
+  Import took 0.157039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000453 seconds.
+  path: Assets/Game Assets/Sprites/Explosion/Explosion_00144.png
+  artifactKey: Guid(a93478cc813924a6d85ecb54a8085791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Explosion/Explosion_00144.png using Guid(a93478cc813924a6d85ecb54a8085791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72611a4fbccfe573e23ee6a721b483ad') in 0.135423 seconds
+  Import took 0.151692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000631 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00110.png
+  artifactKey: Guid(71ada7049ab5a4ced96b18a473c088f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00110.png using Guid(71ada7049ab5a4ced96b18a473c088f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46cdd9f04cc2f517ce36819295030fd0') in 0.116037 seconds
+  Import took 0.127339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00088.png
+  artifactKey: Guid(3919c0b26b48c445490500727b1400f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00088.png using Guid(3919c0b26b48c445490500727b1400f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50578e41cfc92acf6f80592582fe94a9') in 0.118883 seconds
+  Import took 0.127185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Game Assets/Sprites/Explosion/Explosion_00143.png
+  artifactKey: Guid(b2185a6e9684145cfaddb935abed604e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Explosion/Explosion_00143.png using Guid(b2185a6e9684145cfaddb935abed604e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a57aa9b59922adc5c36bee4172385c1a') in 0.122141 seconds
+  Import took 0.130731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000448 seconds.
+  path: Assets/Game Assets/Sprites/Player_Hurt/Fire_00027.png
+  artifactKey: Guid(c64dc93513c1d43c4a32b4890bdd1094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Player_Hurt/Fire_00027.png using Guid(c64dc93513c1d43c4a32b4890bdd1094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7ff202a88965fdf84dbddd852ae628e') in 0.081946 seconds
+  Import took 0.112539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000499 seconds.
+  path: Assets/Game Assets/Sprites/Player_Hurt/Fire_00057.png
+  artifactKey: Guid(066c71a9e909f43018c6cf97ff2f5da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Player_Hurt/Fire_00057.png using Guid(066c71a9e909f43018c6cf97ff2f5da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34bb52ffb2ed7ac0da8e81c74d147c55') in 0.076954 seconds
+  Import took 0.104006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000573 seconds.
+  path: Assets/Game Assets/Sprites/Player_Hurt/Fire_00011.png
+  artifactKey: Guid(7ce49c16c0e13450997e287915015be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Player_Hurt/Fire_00011.png using Guid(7ce49c16c0e13450997e287915015be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59b07a001e66f71773b638aec7c21ded') in 0.061668 seconds
+  Import took 0.072235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Game Assets/Sprites/Player_Turn_Left/Player Turn Left0002.png
+  artifactKey: Guid(76f24fca3aede49a392f5b213ca9bc34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Player_Turn_Left/Player Turn Left0002.png using Guid(76f24fca3aede49a392f5b213ca9bc34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5d1e5f75d29d92e03910d84665bb95b') in 0.145053 seconds
+  Import took 0.155859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00126.png
+  artifactKey: Guid(ed02b2f1fa67c40fda260268b9bb1765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00126.png using Guid(ed02b2f1fa67c40fda260268b9bb1765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fae0ab2374803b58b9a6ca73183e2469') in 0.143777 seconds
+  Import took 0.170267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000453 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00134.png
+  artifactKey: Guid(021bf02f0f8b249ae81d8583c17f2c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00134.png using Guid(021bf02f0f8b249ae81d8583c17f2c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e02e9554bdaea4704e3f5b1182a8e8a7') in 0.116989 seconds
+  Import took 0.130076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Game Assets/Sprites/Player_Turn_Right/Player Turn Right0005.png
+  artifactKey: Guid(783c36011820c44b99ac90932d536fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Player_Turn_Right/Player Turn Right0005.png using Guid(783c36011820c44b99ac90932d536fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63eb8455a8bd98638f626e8aee543da3') in 0.092353 seconds
+  Import took 0.116290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000468 seconds.
+  path: Assets/Game Assets/Sprites/Explosion/Explosion_00021.png
+  artifactKey: Guid(1202cb242bb50492a94f5a465be87d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Explosion/Explosion_00021.png using Guid(1202cb242bb50492a94f5a465be87d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c317e825f716bc429715e3072305bab') in 0.155319 seconds
+  Import took 0.167241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001606 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00085.png
+  artifactKey: Guid(61fef248f5e454ae8a678a0e27817485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00085.png using Guid(61fef248f5e454ae8a678a0e27817485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b20c740fc5ec216589c50c504e99a7b') in 0.124356 seconds
+  Import took 0.135444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000456 seconds.
+  path: Assets/Game Assets/Sprites/Explosion/Explosion_00050.png
+  artifactKey: Guid(f9a70c5295d714cb6afc58c24ccb35db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Explosion/Explosion_00050.png using Guid(f9a70c5295d714cb6afc58c24ccb35db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97d36d76376a0b687e341bdfb8482278') in 0.085355 seconds
+  Import took 0.095634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/Game Assets/Sprites/Explosion/Explosion_00046.png
+  artifactKey: Guid(65cfdd4bdb178442fae4da3d264cc6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Explosion/Explosion_00046.png using Guid(65cfdd4bdb178442fae4da3d264cc6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fec38766a085d5e6080068e7771a397d') in 0.164875 seconds
+  Import took 0.177247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/Game Assets/Sprites/laser.png
+  artifactKey: Guid(b030d335857201646be69703e678d6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/laser.png using Guid(b030d335857201646be69703e678d6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94999e6649c8104f3ed9bf780cb38808') in 0.077252 seconds
+  Import took 0.086680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Game Assets/Sprites/Explosion/Explosion_00049.png
+  artifactKey: Guid(10f0593302ee844a0b929e7a74570bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Explosion/Explosion_00049.png using Guid(10f0593302ee844a0b929e7a74570bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee8aab2472b39ca4c2df2ad156e445f') in 0.126092 seconds
+  Import took 0.161015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Game Assets/Sprites/Explosion/Explosion_00009.png
+  artifactKey: Guid(dfa5701031e134a99a0573d342f70895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Explosion/Explosion_00009.png using Guid(dfa5701031e134a99a0573d342f70895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27317afb9a48c64011f01ae866637aff') in 0.071467 seconds
+  Import took 0.082162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Game Assets/Sprites/Player_Turn_Right/Player Turn Right0002.png
+  artifactKey: Guid(c7a5b907897124d63a1b3d00415f44f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Player_Turn_Right/Player Turn Right0002.png using Guid(c7a5b907897124d63a1b3d00415f44f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e414033a8a05d5f9d32fed32adb30df4') in 0.121917 seconds
+  Import took 0.145133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000440 seconds.
+  path: Assets/Game Assets/Sprites/Explosion/Explosion_00029.png
+  artifactKey: Guid(e1c49d145e6a542c19dbb057bacb41f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Explosion/Explosion_00029.png using Guid(e1c49d145e6a542c19dbb057bacb41f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4013d613d19be0e5d8c1380252d70a17') in 0.073329 seconds
+  Import took 0.096066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/Game Assets/Sprites/Player_Hurt/Fire_00012.png
+  artifactKey: Guid(b0ae7b83ce4004e8ca908d83ffdaa631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Player_Hurt/Fire_00012.png using Guid(b0ae7b83ce4004e8ca908d83ffdaa631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '267594baa20a1746322c063d6edc889d') in 0.096501 seconds
+  Import took 0.124779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000643 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00106.png
+  artifactKey: Guid(7f359ba8c425c4e85b19b3bc000a892d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00106.png using Guid(7f359ba8c425c4e85b19b3bc000a892d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bab402254366816dcd8c19be8cd788b0') in 0.134776 seconds
+  Import took 0.164638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000451 seconds.
+  path: Assets/Game Assets/Sprites/Explosion/Explosion_00032.png
+  artifactKey: Guid(d47c26f00902f484bb8c298d6ca32b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Explosion/Explosion_00032.png using Guid(d47c26f00902f484bb8c298d6ca32b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02611ac3812f6df440a251b123eb0cf3') in 0.090271 seconds
+  Import took 0.099545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Game Assets/Sprites/Explosion/Explosion_00031.png
+  artifactKey: Guid(a164bc74192c842469612dbc515f2fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Explosion/Explosion_00031.png using Guid(a164bc74192c842469612dbc515f2fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ad9352b7ea749e22a52ad8a60bab1b3') in 0.122559 seconds
+  Import took 0.132011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/Game Assets/Sprites/Explosion/Explosion_00150.png
+  artifactKey: Guid(529eaf4f0c28a4fe6a94141067acd466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Explosion/Explosion_00150.png using Guid(529eaf4f0c28a4fe6a94141067acd466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23bf02c20fdd7ec81d84982818ade0ea') in 0.062259 seconds
+  Import took 0.071659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00102.png
+  artifactKey: Guid(d365eab4b4040481e8e8fcbb22555f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00102.png using Guid(d365eab4b4040481e8e8fcbb22555f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eedbcef4dc178ade45b41e9887d6e04a') in 0.145557 seconds
+  Import took 0.159953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000494 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00125.png
+  artifactKey: Guid(74167e4b7250743fba6b50a1c6599904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00125.png using Guid(74167e4b7250743fba6b50a1c6599904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43f4a45d0d0eb21d971b711e5588869a') in 0.182284 seconds
+  Import took 0.193371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00086.png
+  artifactKey: Guid(3080c3912b4aa48679391eaa83cabece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Enemy_Explode_Sequence/EnemyTurnLeft0000_00086.png using Guid(3080c3912b4aa48679391eaa83cabece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e18641b1492d3ce3719df020cfc0c8b1') in 0.096151 seconds
+  Import took 0.103697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/Game Assets/Sprites/Explosion/Explosion_00043.png
+  artifactKey: Guid(f1bcbead3758544dba81a54afd679783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Explosion/Explosion_00043.png using Guid(f1bcbead3758544dba81a54afd679783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dab16ee1a3daf9148fc00ff1e916ac7') in 0.082755 seconds
+  Import took 0.091670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Game Assets/Sprites/Player_Hurt/Fire_00002.png
+  artifactKey: Guid(65658a241f9eb44868d1dd25fbe45567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Player_Hurt/Fire_00002.png using Guid(65658a241f9eb44868d1dd25fbe45567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf8538daeee29a4225af689a4c24981') in 0.054006 seconds
+  Import took 0.065120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Game Assets/Sprites/Player_Hurt/Fire_00030.png
+  artifactKey: Guid(ac5743feac8594e9896814a5a6c7d973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Player_Hurt/Fire_00030.png using Guid(ac5743feac8594e9896814a5a6c7d973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc30783c4bab523fdba957ff46d3e17d') in 0.097394 seconds
+  Import took 0.105317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/Game Assets/Sprites/Explosion/Explosion_00149.png
+  artifactKey: Guid(9c06f0cb6117c4842b82ca92b9ae0da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Explosion/Explosion_00149.png using Guid(9c06f0cb6117c4842b82ca92b9ae0da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b89ad09d9ff0c7c0f69539c0fc79a859') in 0.168244 seconds
+  Import took 0.177021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/Game Assets/Sprites/Explosion/Explosion_00141.png
+  artifactKey: Guid(42264e3d6a484434f90c68d029679f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Sprites/Explosion/Explosion_00141.png using Guid(42264e3d6a484434f90c68d029679f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c8b4903f54a31c27069c3d19bf2cd64') in 0.125764 seconds
+  Import took 0.134517 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007246 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.490 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2185 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.4 MB.
+System memory in use after: 104.4 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2768.
+Total: 4.478804 ms (FindLiveObjects: 0.298081 ms CreateObjectMapping: 0.130745 ms MarkObjects: 3.778224 ms  DeleteObjects: 0.269076 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 12.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.0 MB.
+System memory in use after: 60.9 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2768.
+Total: 6.261490 ms (FindLiveObjects: 0.577867 ms CreateObjectMapping: 0.204819 ms MarkObjects: 4.745649 ms  DeleteObjects: 0.730477 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007696 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.376 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2185 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.5 MB.
+System memory in use after: 104.4 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2772.
+Total: 4.995091 ms (FindLiveObjects: 0.339581 ms CreateObjectMapping: 0.136992 ms MarkObjects: 4.005355 ms  DeleteObjects: 0.509148 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 8.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.0 MB.
+System memory in use after: 61.0 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2772.
+Total: 5.445783 ms (FindLiveObjects: 0.511825 ms CreateObjectMapping: 0.173137 ms MarkObjects: 4.444444 ms  DeleteObjects: 0.313699 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 81.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.0 MB.
+System memory in use after: 61.0 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2772.
+Total: 44.244980 ms (FindLiveObjects: 4.155288 ms CreateObjectMapping: 2.024096 ms MarkObjects: 34.108880 ms  DeleteObjects: 3.952700 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.0 MB.
+System memory in use after: 61.0 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2772.
+Total: 4.252566 ms (FindLiveObjects: 0.345382 ms CreateObjectMapping: 0.135207 ms MarkObjects: 3.472111 ms  DeleteObjects: 0.298081 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 4152.491845 seconds.
+  path: Assets/Scenes/start.unity
+  artifactKey: Guid(5be4edf4c4404614ea46278e32e92ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/start.unity using Guid(5be4edf4c4404614ea46278e32e92ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b31adb619c135001f9ba3574e307b62e') in 0.239512 seconds
+  Import took 0.381100 seconds .
 

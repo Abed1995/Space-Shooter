@@ -5,12 +5,13 @@ using UnityEngine;
 public class SpawnManager : MonoBehaviour
 {
     [SerializeField]
-    GameObject _enemyPrefab;
+    GameObject[] _enemyPrefab;
 
     [SerializeField]
     GameObject[] powerups;
 
-    int randomprefab;
+    int randomPowerUpPrefab;
+    int randomEnemyPrefab;
     GameManager gameManager;
     // Start is called before the first frame update
     void Start()
@@ -32,10 +33,12 @@ public class SpawnManager : MonoBehaviour
 
     IEnumerator InstantiateEnemy()
     {
+
         while (gameManager.gameOver == false)
         {
-            Instantiate(_enemyPrefab, new Vector3(Random.Range(-7, 7), 7, 0), Quaternion.identity);
-            yield return new WaitForSeconds(3.0f);
+            randomEnemyPrefab = Random.Range(0, 2);
+            Instantiate(_enemyPrefab[randomEnemyPrefab], new Vector3(Random.Range(-7, 7), 7, 0), Quaternion.identity);
+            yield return new WaitForSeconds(1.0f);
         }
     }
 
@@ -43,8 +46,8 @@ public class SpawnManager : MonoBehaviour
     {
         while (gameManager.gameOver == false)
         {
-            randomprefab = Random.Range(0, 3);
-            Instantiate(powerups[2], new Vector3(Random.Range(-7, 7), 7, 0), Quaternion.identity);
+            randomPowerUpPrefab = Random.Range(0, 3);
+            Instantiate(powerups[randomPowerUpPrefab], new Vector3(Random.Range(-7, 7), 7, 0), Quaternion.identity);
             yield return new WaitForSeconds(15.0f);
         }
        

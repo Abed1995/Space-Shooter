@@ -12,24 +12,38 @@ public class Enemy : MonoBehaviour
     [SerializeField]
     AudioClip _explosionClip ;
 
+    [SerializeField]
+    bool _canRotate;
     UIManager uIManager;
     // Start is called before the first frame update
     void Start()
     {
         uIManager = GameObject.Find("Canvas").GetComponent<UIManager>();
     }
+    
 
-    // Update is called once per frame
-    void Update()
+    private void FixedUpdate()
     {
         Move();
     }
+    
     private void Move()
     {
-        transform.Translate(Vector3.down * _speed * Time.deltaTime);
-        if (transform.position.y< -6)
+        transform.Translate(Vector3.down * _speed * Time.deltaTime , Space.World);
+        if (transform.position.y< -6 && _canRotate ==false )
         {
             transform.position = new Vector3(transform.position.x, 6.3f, 0);
+        }
+
+        if (_canRotate )
+        {
+            transform.Rotate ( Vector3.back , 2);
+            if (transform.position.y < -6)
+            {
+                Destroy(this.gameObject);
+            }
+            
+            
         }
     }
 

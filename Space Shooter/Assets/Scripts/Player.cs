@@ -69,8 +69,7 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Move();
-        controlPlayerBounds();
+       
 
         
         if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButton(0))
@@ -78,6 +77,12 @@ public class Player : MonoBehaviour
             ShootingLaser();
         }
         
+    }
+
+    private void FixedUpdate()
+    {
+        Move();
+        controlPlayerBounds();
     }
 
     void Move()

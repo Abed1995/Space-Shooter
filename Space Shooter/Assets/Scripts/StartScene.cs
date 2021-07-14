@@ -17,7 +17,7 @@ public class StartScene : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         currentTime = gameObject.GetComponent<VideoPlayer>().time;
         if (currentTime >= time)
