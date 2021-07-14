@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5380341946646069421}
   - component: {fileID: 5380341946646069422}
   - component: {fileID: 5380341946646069423}
+  - component: {fileID: 5981709129105565847}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -127,6 +128,28 @@ MonoBehaviour:
   _speed: 4
   EnemyExplosion: {fileID: 9032183792679647648, guid: fef48eca885b0d148b3af3932014449c, type: 3}
   _explosionClip: {fileID: 8300000, guid: a885c043fab7e46438bba03ba9dab6bc, type: 3}
+  _canRotate: 0
+--- !u!50 &5981709129105565847
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5380341946646069408}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1001 &2561122853549162525
 PrefabInstance:
   m_ObjectHideFlags: 0

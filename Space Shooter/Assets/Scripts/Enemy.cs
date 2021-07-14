@@ -78,5 +78,19 @@ public class Enemy : MonoBehaviour
             player.Damage();
         }
 
+
+        else if (other.gameObject.tag == "Enemy" )
+        {
+            
+            if (_canRotate== false && other.gameObject.GetComponent<Enemy>()._canRotate == false)
+            {
+                Destroy(this.gameObject);
+            }
+               
+
+            
+
+        }
+
     }
 }
